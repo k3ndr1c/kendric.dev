@@ -1,1 +1,1 @@
-Personal website was built using Next.js
+Personal website built using Next.js.
