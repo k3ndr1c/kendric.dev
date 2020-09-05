@@ -1,0 +1,55 @@
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+
+  font: 100%/1.75 Poppins, serif;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 100%;
+    line-height: 1.75;
+    font-family: Poppins, serif;
+    -webkit-font-smoothing: antialiased;
+
+  max-width: 42rem;
+
+  background-color: var(--bg);
+  --orange: #FA9258;
+  --bg: #282c35;
+  --textTitle: #fff;
+  --textNormal: hsla(0,0%,100%,0.88);
+  --textLink: var(--orange);
+  color: var(--textNormal);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: var(--textLink);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  background-color: var(--bg);
+}
+
+button::before {
+  background-color: var(--orange) !important;
+}
