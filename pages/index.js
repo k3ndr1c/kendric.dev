@@ -44,20 +44,14 @@ function Home({ router }) {
           handleMaximise: () => null
         }}
         commands={{
-          'blog': () => router.push('/blog'),
-          'contact': () => router.push('/contact'),
           'education': (args, print, runCommand) => {
             educationDetails.forEach(school => school.forEach(
               line => print(line)
             ))
-          },
-          'projects': () => router.push('/projects')
+          }
         }}
         descriptions={{
-          'blog': 'view blog posts',
-          'contact': 'ways to reach me',
           'education': 'show education',
-          'projects': 'view projects',
         }}
       />
     </Layout>
