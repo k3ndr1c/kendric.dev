@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/projects.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/contact.js"],{
 
 /***/ "./components/Header/Header.js":
 /*!*************************************!*\
@@ -399,261 +399,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./components/MyCarousel/MyCarousel.js":
-/*!*********************************************!*\
-  !*** ./components/MyCarousel/MyCarousel.js ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return MyCarousel; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dynamic */ "./node_modules/next/dist/next-server/lib/dynamic.js");
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _brainhubeu_react_carousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @brainhubeu/react-carousel */ "./node_modules/@brainhubeu/react-carousel/lib/react-carousel.js");
-/* harmony import */ var _brainhubeu_react_carousel__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_brainhubeu_react_carousel__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/utils.module.css */ "./styles/utils.module.css");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/home/k3ndr1c/react-projects/nextjs-blog/components/MyCarousel/MyCarousel.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-var Carousel = next_dynamic__WEBPACK_IMPORTED_MODULE_1___default()(function () {
-  return Promise.resolve(/*! import() */).then(__webpack_require__.t.bind(null, /*! @brainhubeu/react-carousel */ "./node_modules/@brainhubeu/react-carousel/lib/react-carousel.js", 7));
-}, {
-  ssr: false,
-  loadableGenerated: {
-    webpack: function webpack() {
-      return [/*require.resolve*/(/*! @brainhubeu/react-carousel */ "./node_modules/@brainhubeu/react-carousel/lib/react-carousel.js")];
-    },
-    modules: ['@brainhubeu/react-carousel']
-  }
-});
-function MyCarousel(_ref) {
-  var _this = this;
-
-  var images = _ref.images;
-
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(0),
-      value = _useState[0],
-      setValue = _useState[1];
-
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(Carousel, {
-    value: value,
-    onChange: setValue,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 7
-    }
-  }, images.map(function (imgSrc, index) {
-    return __jsx("img", {
-      className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.imageMaxSize,
-      key: index,
-      src: imgSrc,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 23,
-        columnNumber: 11
-      }
-    });
-  })), __jsx(_brainhubeu_react_carousel__WEBPACK_IMPORTED_MODULE_2__["Dots"], {
-    value: value,
-    onChange: setValue,
-    number: images.length,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 7
-    }
-  }));
-}
-
-/***/ }),
-
-/***/ "./components/MyCarousel/index.js":
-/*!****************************************!*\
-  !*** ./components/MyCarousel/index.js ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _MyCarousel_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./MyCarousel.js */ "./components/MyCarousel/MyCarousel.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _MyCarousel_js__WEBPACK_IMPORTED_MODULE_0__["default"]; });
-
-
-
-/***/ }),
-
-/***/ "./components/ProjectDetail/ProjectDetail.js":
-/*!***************************************************!*\
-  !*** ./components/ProjectDetail/ProjectDetail.js ***!
-  \***************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ProjectDetail; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _ProjectDetail_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ProjectDetail.module.css */ "./components/ProjectDetail/ProjectDetail.module.css");
-/* harmony import */ var _ProjectDetail_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_ProjectDetail_module_css__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_MyCarousel__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/MyCarousel */ "./components/MyCarousel/index.js");
-var _jsxFileName = "/home/k3ndr1c/react-projects/nextjs-blog/components/ProjectDetail/ProjectDetail.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-function ProjectDetail(_ref) {
-  var name = _ref.name,
-      images = _ref.images,
-      description = _ref.description,
-      srcUrl = _ref.srcUrl,
-      siteUrl = _ref.siteUrl;
-  return __jsx("div", {
-    className: _ProjectDetail_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.projectContainer,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 5
-    }
-  }, __jsx("a", {
-    href: siteUrl,
-    className: _ProjectDetail_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 7
-    }
-  }, name), __jsx(_components_MyCarousel__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    images: images,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 7
-    }
-  }), __jsx("h5", {
-    className: _ProjectDetail_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.desc,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 7
-    }
-  }, description), __jsx("div", {
-    className: _ProjectDetail_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.linksContainer,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 7
-    }
-  }, srcUrl && __jsx("a", {
-    className: _ProjectDetail_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.url,
-    href: srcUrl,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 22
-    }
-  }, "code")));
-}
-
-/***/ }),
-
-/***/ "./components/ProjectDetail/ProjectDetail.module.css":
-/*!***********************************************************!*\
-  !*** ./components/ProjectDetail/ProjectDetail.module.css ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./ProjectDetail.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/ProjectDetail/ProjectDetail.module.css");
-
-if (typeof content === 'string') {
-  content = [[module.i, content, '']];
-}
-
-var options = {}
-
-options.insert = function(element){// These elements should always exist. If they do not,
-// this code should fail.
-var anchorElement=document.querySelector('#__next_css__DO_NOT_USE__');var parentNode=anchorElement.parentNode;// Normally <head>
-// Each style tag should be placed right before our
-// anchor. By inserting before and not after, we do not
-// need to track the last inserted element.
-parentNode.insertBefore(element,anchorElement)// Remember: this is development only code.
-//
-// After styles are injected, we need to remove the
-// <style> tags that set `body { display: none; }`.
-//
-// We use `requestAnimationFrame` as a way to defer
-// this operation since there may be multiple style
-// tags.
-;(self.requestAnimationFrame||setTimeout)(function(){for(var x=document.querySelectorAll('[data-next-hide-fouc]'),i=x.length;i--;){x[i].parentNode.removeChild(x[i]);}});};
-options.singleton = false;
-
-var update = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js")(content, options);
-
-if (content.locals) {
-  module.exports = content.locals;
-}
-
-if (true) {
-  if (!content.locals) {
-    module.hot.accept(
-      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./ProjectDetail.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/ProjectDetail/ProjectDetail.module.css",
-      function () {
-        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./ProjectDetail.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/ProjectDetail/ProjectDetail.module.css");
-
-        if (typeof newContent === 'string') {
-          newContent = [[module.i, newContent, '']];
-        }
-        
-        update(newContent);
-      }
-    )
-  }
-
-  module.hot.dispose(function() { 
-    update();
-  });
-}
-
-/***/ }),
-
-/***/ "./components/ProjectDetail/index.js":
-/*!*******************************************!*\
-  !*** ./components/ProjectDetail/index.js ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ProjectDetail_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ProjectDetail.js */ "./components/ProjectDetail/ProjectDetail.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _ProjectDetail_js__WEBPACK_IMPORTED_MODULE_0__["default"]; });
-
-
-
-/***/ }),
-
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
 /*!***************************************************************!*\
   !*** ./node_modules/@babel/runtime/helpers/arrayWithHoles.js ***!
@@ -793,33 +538,6 @@ function _createClass(Constructor, protoProps, staticProps) {
 }
 
 module.exports = _createClass;
-
-/***/ }),
-
-/***/ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/@babel/runtime/helpers/esm/defineProperty.js ***!
-  \*******************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
 
 /***/ }),
 
@@ -1161,43 +879,6 @@ module.exports = __webpack_require__(/*! regenerator-runtime */ "./node_modules/
 
 /***/ }),
 
-/***/ "./node_modules/@brainhubeu/react-carousel/lib/react-carousel.js":
-/*!***********************************************************************!*\
-  !*** ./node_modules/@brainhubeu/react-carousel/lib/react-carousel.js ***!
-  \***********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-!function(e,t){ true?module.exports=t(__webpack_require__(/*! react */ "./node_modules/react/index.js"),__webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js")):undefined}(this,(function(e,t){return o={},n.m=r=[function(t,n){t.exports=e},function(e,t,n){var r=n(19);e.exports=n(31)(r.isElement,!0)},function(e,t,n){var r;
-/*!
-  Copyright (c) 2017 Jed Watson.
-  Licensed under the MIT License (MIT), see
-  http://jedwatson.github.io/classnames
-*/!function(){"use strict";var n={}.hasOwnProperty;function o(){for(var e=[],t=0;t<arguments.length;t++){var r=arguments[t];if(r){var i=typeof r;if("string"==i||"number"==i)e.push(r);else if(Array.isArray(r)&&r.length){var a=o.apply(null,r);a&&e.push(a)}else if("object"==i)for(var u in r)n.call(r,u)&&r[u]&&e.push(u)}}return e.join(" ")}e.exports?(o.default=o,e.exports=o):void 0===(r=function(){return o}.apply(t,[]))||(e.exports=r)}()},function(e,t){e.exports=function(e){return null==e}},function(e,t){var n=Array.isArray;e.exports=n},function(e,t){e.exports=function(e){var t=typeof e;return null!=e&&("object"==t||"function"==t)}},function(e,t,n){var r=n(37),o="object"==typeof self&&self&&self.Object===Object&&self,i=r||o||Function("return this")();e.exports=i},function(e,t,n){var r=n(15),o=n(16);e.exports=function(e){return"symbol"==typeof e||o(e)&&"[object Symbol]"==r(e)}},function(e,t,n){var r=n(6).Symbol;e.exports=r},function(e,t,n){var r=n(21)(Object,"create");e.exports=r},function(e,t,n){var r=n(64);e.exports=function(e,t){for(var n=e.length;n--;)if(r(e[n][0],t))return n;return-1}},function(e,t,n){var r=n(70);e.exports=function(e,t){var n=e.__data__;return r(t)?n["string"==typeof t?"string":"hash"]:n.map}},function(e,t,n){"use strict";(function(e){var n=function(){if("undefined"!=typeof Map)return Map;function e(e,t){var n=-1;return e.some((function(e,r){return e[0]===t&&(n=r,!0)})),n}return Object.defineProperty(t.prototype,"size",{get:function(){return this.__entries__.length},enumerable:!0,configurable:!0}),t.prototype.get=function(t){var n=e(this.__entries__,t),r=this.__entries__[n];return r&&r[1]},t.prototype.set=function(t,n){var r=e(this.__entries__,t);~r?this.__entries__[r][1]=n:this.__entries__.push([t,n])},t.prototype.delete=function(t){var n=this.__entries__,r=e(n,t);~r&&n.splice(r,1)},t.prototype.has=function(t){return!!~e(this.__entries__,t)},t.prototype.clear=function(){this.__entries__.splice(0)},t.prototype.forEach=function(e,t){void 0===t&&(t=null);for(var n=0,r=this.__entries__;n<r.length;n++){var o=r[n];e.call(t,o[1],o[0])}},t;function t(){this.__entries__=[]}}(),r="undefined"!=typeof window&&"undefined"!=typeof document&&window.document===document,o=void 0!==e&&e.Math===Math?e:"undefined"!=typeof self&&self.Math===Math?self:"undefined"!=typeof window&&window.Math===Math?window:Function("return this")(),i="function"==typeof requestAnimationFrame?requestAnimationFrame.bind(o):function(e){return setTimeout((function(){return e(Date.now())}),1e3/60)},a=["top","right","bottom","left","width","height","size","weight"],u="undefined"!=typeof MutationObserver,c=(s.prototype.addObserver=function(e){~this.observers_.indexOf(e)||this.observers_.push(e),this.connected_||this.connect_()},s.prototype.removeObserver=function(e){var t=this.observers_,n=t.indexOf(e);~n&&t.splice(n,1),!t.length&&this.connected_&&this.disconnect_()},s.prototype.refresh=function(){this.updateObservers_()&&this.refresh()},s.prototype.updateObservers_=function(){var e=this.observers_.filter((function(e){return e.gatherActive(),e.hasActive()}));return e.forEach((function(e){return e.broadcastActive()})),0<e.length},s.prototype.connect_=function(){r&&!this.connected_&&(document.addEventListener("transitionend",this.onTransitionEnd_),window.addEventListener("resize",this.refresh),u?(this.mutationsObserver_=new MutationObserver(this.refresh),this.mutationsObserver_.observe(document,{attributes:!0,childList:!0,characterData:!0,subtree:!0})):(document.addEventListener("DOMSubtreeModified",this.refresh),this.mutationEventsAdded_=!0),this.connected_=!0)},s.prototype.disconnect_=function(){r&&this.connected_&&(document.removeEventListener("transitionend",this.onTransitionEnd_),window.removeEventListener("resize",this.refresh),this.mutationsObserver_&&this.mutationsObserver_.disconnect(),this.mutationEventsAdded_&&document.removeEventListener("DOMSubtreeModified",this.refresh),this.mutationsObserver_=null,this.mutationEventsAdded_=!1,this.connected_=!1)},s.prototype.onTransitionEnd_=function(e){var t=e.propertyName,n=void 0===t?"":t;a.some((function(e){return!!~n.indexOf(e)}))&&this.refresh()},s.getInstance=function(){return this.instance_||(this.instance_=new s),this.instance_},s.instance_=null,s);function s(){function e(){a&&(a=!1,r()),u&&n()}function t(){i(e)}function n(){var e=Date.now();if(a){if(e-c<2)return;u=!0}else u=!(a=!0),setTimeout(t,o);c=e}var r,o,a,u,c;this.connected_=!1,this.mutationEventsAdded_=!1,this.mutationsObserver_=null,this.observers_=[],this.onTransitionEnd_=this.onTransitionEnd_.bind(this),this.refresh=(r=this.refresh.bind(this),u=a=!(o=20),c=0,n)}var f=function(e,t){for(var n=0,r=Object.keys(t);n<r.length;n++){var o=r[n];Object.defineProperty(e,o,{value:t[o],enumerable:!1,writable:!1,configurable:!0})}return e},l=function(e){return e&&e.ownerDocument&&e.ownerDocument.defaultView||o},p=b(0,0,0,0);function d(e){return parseFloat(e)||0}function h(e){for(var t=[],n=1;n<arguments.length;n++)t[n-1]=arguments[n];return t.reduce((function(t,n){return t+d(e["border-"+n+"-width"])}),0)}var y="undefined"!=typeof SVGGraphicsElement?function(e){return e instanceof l(e).SVGGraphicsElement}:function(e){return e instanceof l(e).SVGElement&&"function"==typeof e.getBBox};function v(e){return r?y(e)?b(0,0,(t=e.getBBox()).width,t.height):function(e){var t=e.clientWidth,n=e.clientHeight;if(!t&&!n)return p;var r,o,i,a=l(e).getComputedStyle(e),u=function(e){for(var t={},n=0,r=["top","right","bottom","left"];n<r.length;n++){var o=r[n],i=e["padding-"+o];t[o]=d(i)}return t}(a),c=u.left+u.right,s=u.top+u.bottom,f=d(a.width),y=d(a.height);return"border-box"===a.boxSizing&&(Math.round(f+c)!==t&&(f-=h(a,"left","right")+c),Math.round(y+s)!==n&&(y-=h(a,"top","bottom")+s)),(i=e)!==l(i).document.documentElement&&(r=Math.round(f+c)-t,o=Math.round(y+s)-n,1!==Math.abs(r)&&(f-=r),1!==Math.abs(o)&&(y-=o)),b(u.left,u.top,f,y)}(e):p;var t}function b(e,t,n,r){return{x:e,y:t,width:n,height:r}}var g=(m.prototype.isActive=function(){var e=v(this.target);return(this.contentRect_=e).width!==this.broadcastWidth||e.height!==this.broadcastHeight},m.prototype.broadcastRect=function(){var e=this.contentRect_;return this.broadcastWidth=e.width,this.broadcastHeight=e.height,e},m);function m(e){this.broadcastWidth=0,this.broadcastHeight=0,this.contentRect_=b(0,0,0,0),this.target=e}var w=function(e,t){var n,r,o,i,a,u,c,s=(r=(n=t).x,o=n.y,i=n.width,a=n.height,u="undefined"!=typeof DOMRectReadOnly?DOMRectReadOnly:Object,c=Object.create(u.prototype),f(c,{x:r,y:o,width:i,height:a,top:o,right:r+i,bottom:a+o,left:r}),c);f(this,{target:e,contentRect:s})},_=(O.prototype.observe=function(e){if(!arguments.length)throw new TypeError("1 argument required, but only 0 present.");if("undefined"!=typeof Element&&Element instanceof Object){if(!(e instanceof l(e).Element))throw new TypeError('parameter 1 is not of type "Element".');var t=this.observations_;t.has(e)||(t.set(e,new g(e)),this.controller_.addObserver(this),this.controller_.refresh())}},O.prototype.unobserve=function(e){if(!arguments.length)throw new TypeError("1 argument required, but only 0 present.");if("undefined"!=typeof Element&&Element instanceof Object){if(!(e instanceof l(e).Element))throw new TypeError('parameter 1 is not of type "Element".');var t=this.observations_;t.has(e)&&(t.delete(e),t.size||this.controller_.removeObserver(this))}},O.prototype.disconnect=function(){this.clearActive(),this.observations_.clear(),this.controller_.removeObserver(this)},O.prototype.gatherActive=function(){var e=this;this.clearActive(),this.observations_.forEach((function(t){t.isActive()&&e.activeObservations_.push(t)}))},O.prototype.broadcastActive=function(){var e,t;this.hasActive()&&(e=this.callbackCtx_,t=this.activeObservations_.map((function(e){return new w(e.target,e.broadcastRect())})),this.callback_.call(e,t,e),this.clearActive())},O.prototype.clearActive=function(){this.activeObservations_.splice(0)},O.prototype.hasActive=function(){return 0<this.activeObservations_.length},O);function O(e,t,r){if(this.activeObservations_=[],this.observations_=new n,"function"!=typeof e)throw new TypeError("The callback provided as parameter 1 is not a function.");this.callback_=e,this.controller_=t,this.callbackCtx_=r}var S=new("undefined"!=typeof WeakMap?WeakMap:n),x=function e(t){if(!(this instanceof e))throw new TypeError("Cannot call a class as a function.");if(!arguments.length)throw new TypeError("1 argument required, but only 0 present.");var n=c.getInstance(),r=new _(t,n,this);S.set(this,r)};["observe","unobserve","disconnect"].forEach((function(e){x.prototype[e]=function(){var t;return(t=S.get(this))[e].apply(t,arguments)}}));var E=void 0!==o.ResizeObserver?o.ResizeObserver:x;t.a=E}).call(this,n(14))},function(e,t,n){"use strict";e.exports="SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED"},function(e,t){var n=function(){return this}();try{n=n||new Function("return this")()}catch(e){"object"==typeof window&&(n=window)}e.exports=n},function(e,t,n){var r=n(8),o=n(38),i=n(39),a=r?r.toStringTag:void 0;e.exports=function(e){return null==e?void 0===e?"[object Undefined]":"[object Null]":(a&&a in Object(e)?o:i)(e)}},function(e,t){e.exports=function(e){return null!=e&&"object"==typeof e}},function(e,t,n){var r=n(23),o=n(81),i=n(83),a=n(4);e.exports=function(){var e=arguments.length;if(!e)return[];for(var t=Array(e-1),n=arguments[0],u=e;u--;)t[u-1]=arguments[u];return r(a(n)?i(n):[n],o(t,1))}},function(e,t,n){var r=n(84),o=n(85),i=n(87),a=4294967295,u=Math.min;e.exports=function(e,t){if((e=i(e))<1||9007199254740991<e)return[];var n=a,c=u(e,a);t=o(t),e-=a;for(var s=r(c,t);++n<e;)t(n);return s}},function(e,t,n){"use strict";e.exports=n(30)},function(e,t,n){var r=n(5),o=n(7),i=/^\s+|\s+$/g,a=/^[-+]0x[0-9a-f]+$/i,u=/^0b[01]+$/i,c=/^0o[0-7]+$/i,s=parseInt;e.exports=function(e){if("number"==typeof e)return e;if(o(e))return NaN;var t;if(r(e)&&(t="function"==typeof e.valueOf?e.valueOf():e,e=r(t)?t+"":t),"string"!=typeof e)return 0===e?e:+e;e=e.replace(i,"");var n=u.test(e);return n||c.test(e)?s(e.slice(2),n?2:8):a.test(e)?NaN:+e}},function(e,t,n){var r=n(51),o=n(56);e.exports=function(e,t){var n=o(e,t);return r(n)?n:void 0}},function(e,t,n){var r=n(77),o=n(16),i=Object.prototype,a=i.hasOwnProperty,u=i.propertyIsEnumerable,c=r(function(){return arguments}())?r:function(e){return o(e)&&a.call(e,"callee")&&!u.call(e,"callee")};e.exports=c},function(e,t){e.exports=function(e,t){for(var n=-1,r=t.length,o=e.length;++n<r;)e[o+n]=t[n];return e}},function(e,t,n){var r=n(35),o=n(5);e.exports=function(e,t,n){var i=!0,a=!0;if("function"!=typeof e)throw new TypeError("Expected a function");return o(n)&&(i="leading"in n?!!n.leading:i,a="trailing"in n?!!n.trailing:a),r(e,t,{leading:i,maxWait:t,trailing:a})}},function(e,t,n){var r=n(40),o=n(41);e.exports=function(e,t){return null!=e&&o(e,t,r)}},function(e,n){e.exports=t},function(e,t,n){"use strict";(function(e){var n="object"==typeof e&&e&&e.Object===Object&&e;t.a=n}).call(this,n(14))},,function(e,t,n){"use strict";
-/** @license React v16.13.1
- * react-is.production.min.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */var r="function"==typeof Symbol&&Symbol.for,o=r?Symbol.for("react.element"):60103,i=r?Symbol.for("react.portal"):60106,a=r?Symbol.for("react.fragment"):60107,u=r?Symbol.for("react.strict_mode"):60108,c=r?Symbol.for("react.profiler"):60114,s=r?Symbol.for("react.provider"):60109,f=r?Symbol.for("react.context"):60110,l=r?Symbol.for("react.async_mode"):60111,p=r?Symbol.for("react.concurrent_mode"):60111,d=r?Symbol.for("react.forward_ref"):60112,h=r?Symbol.for("react.suspense"):60113,y=r?Symbol.for("react.suspense_list"):60120,v=r?Symbol.for("react.memo"):60115,b=r?Symbol.for("react.lazy"):60116,g=r?Symbol.for("react.block"):60121,m=r?Symbol.for("react.fundamental"):60117,w=r?Symbol.for("react.responder"):60118,_=r?Symbol.for("react.scope"):60119;function O(e){if("object"==typeof e&&null!==e){var t=e.$$typeof;switch(t){case o:switch(e=e.type){case l:case p:case a:case c:case u:case h:return e;default:switch(e=e&&e.$$typeof){case f:case d:case b:case v:case s:return e;default:return t}}case i:return t}}}function S(e){return O(e)===p}t.AsyncMode=l,t.ConcurrentMode=p,t.ContextConsumer=f,t.ContextProvider=s,t.Element=o,t.ForwardRef=d,t.Fragment=a,t.Lazy=b,t.Memo=v,t.Portal=i,t.Profiler=c,t.StrictMode=u,t.Suspense=h,t.isAsyncMode=function(e){return S(e)||O(e)===l},t.isConcurrentMode=S,t.isContextConsumer=function(e){return O(e)===f},t.isContextProvider=function(e){return O(e)===s},t.isElement=function(e){return"object"==typeof e&&null!==e&&e.$$typeof===o},t.isForwardRef=function(e){return O(e)===d},t.isFragment=function(e){return O(e)===a},t.isLazy=function(e){return O(e)===b},t.isMemo=function(e){return O(e)===v},t.isPortal=function(e){return O(e)===i},t.isProfiler=function(e){return O(e)===c},t.isStrictMode=function(e){return O(e)===u},t.isSuspense=function(e){return O(e)===h},t.isValidElementType=function(e){return"string"==typeof e||"function"==typeof e||e===a||e===p||e===c||e===u||e===h||e===y||"object"==typeof e&&null!==e&&(e.$$typeof===b||e.$$typeof===v||e.$$typeof===s||e.$$typeof===f||e.$$typeof===d||e.$$typeof===m||e.$$typeof===w||e.$$typeof===_||e.$$typeof===g)},t.typeOf=O},function(e,t,n){"use strict";
-/** @license React v16.13.1
- * react-is.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */function r(e){if("object"==typeof e&&null!==e){var t=e.$$typeof;switch(t){case a:var n=e.type;switch(n){case d:case h:case c:case f:case s:case v:return n;default:var r=n&&n.$$typeof;switch(r){case p:case y:case m:case g:case l:return r;default:return t}}case u:return t}}}function o(e){return r(e)===h}var i,a,u,c,s,f,l,p,d,h,y,v,b,g,m,w,_,O,S,x,E,P,j,C,R,T,k,M,A,L,I,$;i="function"==typeof Symbol&&Symbol.for,a=i?Symbol.for("react.element"):60103,u=i?Symbol.for("react.portal"):60106,c=i?Symbol.for("react.fragment"):60107,s=i?Symbol.for("react.strict_mode"):60108,f=i?Symbol.for("react.profiler"):60114,l=i?Symbol.for("react.provider"):60109,p=i?Symbol.for("react.context"):60110,d=i?Symbol.for("react.async_mode"):60111,h=i?Symbol.for("react.concurrent_mode"):60111,y=i?Symbol.for("react.forward_ref"):60112,v=i?Symbol.for("react.suspense"):60113,b=i?Symbol.for("react.suspense_list"):60120,g=i?Symbol.for("react.memo"):60115,m=i?Symbol.for("react.lazy"):60116,w=i?Symbol.for("react.block"):60121,_=i?Symbol.for("react.fundamental"):60117,O=i?Symbol.for("react.responder"):60118,S=i?Symbol.for("react.scope"):60119,x=h,E=p,P=l,j=a,C=y,R=c,T=m,k=g,M=u,A=f,L=s,I=v,$=!1,t.AsyncMode=d,t.ConcurrentMode=x,t.ContextConsumer=E,t.ContextProvider=P,t.Element=j,t.ForwardRef=C,t.Fragment=R,t.Lazy=T,t.Memo=k,t.Portal=M,t.Profiler=A,t.StrictMode=L,t.Suspense=I,t.isAsyncMode=function(e){return $||($=!0,console.warn("The ReactIs.isAsyncMode() alias has been deprecated, and will be removed in React 17+. Update your code to use ReactIs.isConcurrentMode() instead. It has the exact same API.")),o(e)||r(e)===d},t.isConcurrentMode=o,t.isContextConsumer=function(e){return r(e)===p},t.isContextProvider=function(e){return r(e)===l},t.isElement=function(e){return"object"==typeof e&&null!==e&&e.$$typeof===a},t.isForwardRef=function(e){return r(e)===y},t.isFragment=function(e){return r(e)===c},t.isLazy=function(e){return r(e)===m},t.isMemo=function(e){return r(e)===g},t.isPortal=function(e){return r(e)===u},t.isProfiler=function(e){return r(e)===f},t.isStrictMode=function(e){return r(e)===s},t.isSuspense=function(e){return r(e)===v},t.isValidElementType=function(e){return"string"==typeof e||"function"==typeof e||e===c||e===h||e===f||e===s||e===v||e===b||"object"==typeof e&&null!==e&&(e.$$typeof===m||e.$$typeof===g||e.$$typeof===l||e.$$typeof===p||e.$$typeof===y||e.$$typeof===_||e.$$typeof===O||e.$$typeof===S||e.$$typeof===w)},t.typeOf=r},function(e,t,n){"use strict";var r,o=n(19),i=n(32),a=n(13),u=n(33),c=Function.call.bind(Object.prototype.hasOwnProperty);function s(){return null}r=function(e){var t="Warning: "+e;"undefined"!=typeof console&&console.error(t);try{throw new Error(t)}catch(e){}},e.exports=function(e,t){var n="function"==typeof Symbol&&Symbol.iterator,f="<<anonymous>>",l={array:y("array"),bool:y("boolean"),func:y("function"),number:y("number"),object:y("object"),string:y("string"),symbol:y("symbol"),any:h(s),arrayOf:function(e){return h((function(t,n,r,o,i){if("function"!=typeof e)return new d("Property `"+i+"` of component `"+r+"` has invalid PropType notation inside arrayOf.");var u=t[n];if(!Array.isArray(u))return new d("Invalid "+o+" `"+i+"` of type `"+b(u)+"` supplied to `"+r+"`, expected an array.");for(var c=0;c<u.length;c++){var s=e(u,c,r,o,i+"["+c+"]",a);if(s instanceof Error)return s}return null}))},element:h((function(t,n,r,o,i){var a=t[n];return e(a)?null:new d("Invalid "+o+" `"+i+"` of type `"+b(a)+"` supplied to `"+r+"`, expected a single ReactElement.")})),elementType:h((function(e,t,n,r,i){var a=e[t];return o.isValidElementType(a)?null:new d("Invalid "+r+" `"+i+"` of type `"+b(a)+"` supplied to `"+n+"`, expected a single ReactElement type.")})),instanceOf:function(e){return h((function(t,n,r,o,i){if(t[n]instanceof e)return null;var a,u=e.name||f;return new d("Invalid "+o+" `"+i+"` of type `"+((a=t[n]).constructor&&a.constructor.name?a.constructor.name:f)+"` supplied to `"+r+"`, expected instance of `"+u+"`.")}))},node:h((function(e,t,n,r,o){return v(e[t])?null:new d("Invalid "+r+" `"+o+"` supplied to `"+n+"`, expected a ReactNode.")})),objectOf:function(e){return h((function(t,n,r,o,i){if("function"!=typeof e)return new d("Property `"+i+"` of component `"+r+"` has invalid PropType notation inside objectOf.");var u=t[n],s=b(u);if("object"!==s)return new d("Invalid "+o+" `"+i+"` of type `"+s+"` supplied to `"+r+"`, expected an object.");for(var f in u)if(c(u,f)){var l=e(u,f,r,o,i+"."+f,a);if(l instanceof Error)return l}return null}))},oneOf:function(e){return Array.isArray(e)?h((function(t,n,r,o,i){for(var a=t[n],u=0;u<e.length;u++)if(p(a,e[u]))return null;var c=JSON.stringify(e,(function(e,t){return"symbol"===g(t)?String(t):t}));return new d("Invalid "+o+" `"+i+"` of value `"+String(a)+"` supplied to `"+r+"`, expected one of "+c+".")})):(r(1<arguments.length?"Invalid arguments supplied to oneOf, expected an array, got "+arguments.length+" arguments. A common mistake is to write oneOf(x, y, z) instead of oneOf([x, y, z]).":"Invalid argument supplied to oneOf, expected an array."),s)},oneOfType:function(e){if(!Array.isArray(e))return r("Invalid argument supplied to oneOfType, expected an instance of array."),s;for(var t=0;t<e.length;t++){var n=e[t];if("function"!=typeof n)return r("Invalid argument supplied to oneOfType. Expected an array of check functions, but received "+m(n)+" at index "+t+"."),s}return h((function(t,n,r,o,i){for(var u=0;u<e.length;u++)if(null==(0,e[u])(t,n,r,o,i,a))return null;return new d("Invalid "+o+" `"+i+"` supplied to `"+r+"`.")}))},shape:function(e){return h((function(t,n,r,o,i){var u=t[n],c=b(u);if("object"!==c)return new d("Invalid "+o+" `"+i+"` of type `"+c+"` supplied to `"+r+"`, expected `object`.");for(var s in e){var f=e[s];if(f){var l=f(u,s,r,o,i+"."+s,a);if(l)return l}}return null}))},exact:function(e){return h((function(t,n,r,o,u){var c=t[n],s=b(c);if("object"!==s)return new d("Invalid "+o+" `"+u+"` of type `"+s+"` supplied to `"+r+"`, expected `object`.");var f=i({},t[n],e);for(var l in f){var p=e[l];if(!p)return new d("Invalid "+o+" `"+u+"` key `"+l+"` supplied to `"+r+"`.\nBad object: "+JSON.stringify(t[n],null,"  ")+"\nValid keys: "+JSON.stringify(Object.keys(e),null,"  "));var h=p(c,l,r,o,u+"."+l,a);if(h)return h}return null}))}};function p(e,t){return e===t?0!==e||1/e==1/t:e!=e&&t!=t}function d(e){this.message=e,this.stack=""}function h(e){var n={},o=0;function i(i,u,c,s,l,p,h){if(s=s||f,p=p||c,h!==a){if(t){var y=new Error("Calling PropTypes validators directly is not supported by the `prop-types` package. Use `PropTypes.checkPropTypes()` to call them. Read more at http://fb.me/use-check-prop-types");throw y.name="Invariant Violation",y}var v;"undefined"==typeof console||!n[v=s+":"+c]&&o<3&&(r("You are manually calling a React.PropTypes validation function for the `"+p+"` prop on `"+s+"`. This is deprecated and will throw in the standalone `prop-types` package. You may be seeing this warning due to a third-party PropTypes library. See https://fb.me/react-warning-dont-call-proptypes for details."),n[v]=!0,o++)}return null==u[c]?i?null===u[c]?new d("The "+l+" `"+p+"` is marked as required in `"+s+"`, but its value is `null`."):new d("The "+l+" `"+p+"` is marked as required in `"+s+"`, but its value is `undefined`."):null:e(u,c,s,l,p)}var u=i.bind(null,!1);return u.isRequired=i.bind(null,!0),u}function y(e){return h((function(t,n,r,o,i,a){var u=t[n];return b(u)===e?null:new d("Invalid "+o+" `"+i+"` of type `"+g(u)+"` supplied to `"+r+"`, expected `"+e+"`.")}))}function v(t){switch(typeof t){case"number":case"string":case"undefined":return!0;case"boolean":return!t;case"object":if(Array.isArray(t))return t.every(v);if(null===t||e(t))return!0;var r=function(e){var t=e&&(n&&e[n]||e["@@iterator"]);if("function"==typeof t)return t}(t);if(!r)return!1;var o,i=r.call(t);if(r!==t.entries){for(;!(o=i.next()).done;)if(!v(o.value))return!1}else for(;!(o=i.next()).done;){var a=o.value;if(a&&!v(a[1]))return!1}return!0;default:return!1}}function b(e){var t,n=typeof e;return Array.isArray(e)?"array":e instanceof RegExp?"object":(t=e,"symbol"===n||t&&("Symbol"===t["@@toStringTag"]||"function"==typeof Symbol&&t instanceof Symbol)?"symbol":n)}function g(e){if(null==e)return""+e;var t=b(e);if("object"===t){if(e instanceof Date)return"date";if(e instanceof RegExp)return"regexp"}return t}function m(e){var t=g(e);switch(t){case"array":case"object":return"an "+t;case"boolean":case"date":case"regexp":return"a "+t;default:return t}}return d.prototype=Error.prototype,l.checkPropTypes=u,l.resetWarningCache=u.resetWarningCache,l.PropTypes=l}},function(e,t,n){"use strict";
-/*
-object-assign
-(c) Sindre Sorhus
-@license MIT
-*/var r=Object.getOwnPropertySymbols,o=Object.prototype.hasOwnProperty,i=Object.prototype.propertyIsEnumerable;e.exports=function(){try{if(!Object.assign)return;var e=new String("abc");if(e[5]="de","5"===Object.getOwnPropertyNames(e)[0])return;for(var t={},n=0;n<10;n++)t["_"+String.fromCharCode(n)]=n;if("0123456789"!==Object.getOwnPropertyNames(t).map((function(e){return t[e]})).join(""))return;var r={};return"abcdefghijklmnopqrst".split("").forEach((function(e){r[e]=e})),"abcdefghijklmnopqrst"!==Object.keys(Object.assign({},r)).join("")?void 0:1}catch(e){return}}()?Object.assign:function(e,t){for(var n,a,u=function(e){if(null==e)throw new TypeError("Object.assign cannot be called with null or undefined");return Object(e)}(e),c=1;c<arguments.length;c++){for(var s in n=Object(arguments[c]))o.call(n,s)&&(u[s]=n[s]);if(r){a=r(n);for(var f=0;f<a.length;f++)i.call(n,a[f])&&(u[a[f]]=n[a[f]])}}return u}},function(e,t,n){"use strict";var r=n(13),o={},i=Function.call.bind(Object.prototype.hasOwnProperty),a=function(e){var t="Warning: "+e;"undefined"!=typeof console&&console.error(t);try{throw new Error(t)}catch(e){}};function u(e,t,n,u,c){for(var s in e)if(i(e,s)){var f,l;try{if("function"!=typeof e[s]){var p=Error((u||"React class")+": "+n+" type `"+s+"` is invalid; it must be a function, usually from the `prop-types` package, but received `"+typeof e[s]+"`.");throw p.name="Invariant Violation",p}f=e[s](t,s,u,n,null,r)}catch(e){f=e}!f||f instanceof Error||a((u||"React class")+": type specification of "+n+" `"+s+"` is invalid; the type checker function must return `null` or an `Error` but returned a "+typeof f+". You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument)."),f instanceof Error&&!(f.message in o)&&(o[f.message]=!0,l=c?c():"",a("Failed "+n+" type: "+f.message+(null!=l?l:"")))}}u.resetWarningCache=function(){o={}},e.exports=u},function(e,t,n){"use strict";var r=n(13);function o(){}function i(){}i.resetWarningCache=o,e.exports=function(){function e(e,t,n,o,i,a){if(a!==r){var u=new Error("Calling PropTypes validators directly is not supported by the `prop-types` package. Use PropTypes.checkPropTypes() to call them. Read more at http://fb.me/use-check-prop-types");throw u.name="Invariant Violation",u}}function t(){return e}var n={array:e.isRequired=e,bool:e,func:e,number:e,object:e,string:e,symbol:e,any:e,arrayOf:t,element:e,elementType:e,instanceOf:t,node:e,objectOf:t,oneOf:t,oneOfType:t,shape:t,exact:t,checkPropTypes:i,resetWarningCache:o};return n.PropTypes=n}},function(e,t,n){var r=n(5),o=n(36),i=n(20),a=Math.max,u=Math.min;e.exports=function(e,t,n){var c,s,f,l,p,d,h=0,y=!1,v=!1,b=!0;if("function"!=typeof e)throw new TypeError("Expected a function");function g(t){var n=c,r=s;return c=s=void 0,h=t,l=e.apply(r,n)}function m(e){var n=e-d;return void 0===d||t<=n||n<0||v&&f<=e-h}function w(){var e,n,r=o();if(m(r))return _(r);p=setTimeout(w,(n=t-((e=r)-d),v?u(n,f-(e-h)):n))}function _(e){return p=void 0,b&&c?g(e):(c=s=void 0,l)}function O(){var e,n=o(),r=m(n);if(c=arguments,s=this,d=n,r){if(void 0===p)return h=e=d,p=setTimeout(w,t),y?g(e):l;if(v)return clearTimeout(p),p=setTimeout(w,t),g(d)}return void 0===p&&(p=setTimeout(w,t)),l}return t=i(t)||0,r(n)&&(y=!!n.leading,f=(v="maxWait"in n)?a(i(n.maxWait)||0,t):f,b="trailing"in n?!!n.trailing:b),O.cancel=function(){void 0!==p&&clearTimeout(p),c=d=s=p=void(h=0)},O.flush=function(){return void 0===p?l:_(o())},O}},function(e,t,n){var r=n(6);e.exports=function(){return r.Date.now()}},function(e,t,n){(function(t){var n="object"==typeof t&&t&&t.Object===Object&&t;e.exports=n}).call(this,n(14))},function(e,t,n){var r=n(8),o=Object.prototype,i=o.hasOwnProperty,a=o.toString,u=r?r.toStringTag:void 0;e.exports=function(e){var t=i.call(e,u),n=e[u];try{var r=!(e[u]=void 0)}catch(e){}var o=a.call(e);return r&&(t?e[u]=n:delete e[u]),o}},function(e,t){var n=Object.prototype.toString;e.exports=function(e){return n.call(e)}},function(e,t){var n=Object.prototype.hasOwnProperty;e.exports=function(e,t){return null!=e&&n.call(e,t)}},function(e,t,n){var r=n(42),o=n(22),i=n(4),a=n(78),u=n(79),c=n(80);e.exports=function(e,t,n){for(var s=-1,f=(t=r(t,e)).length,l=!1;++s<f;){var p=c(t[s]);if(!(l=null!=e&&n(e,p)))break;e=e[p]}return l||++s!=f?l:!!(f=null==e?0:e.length)&&u(f)&&a(p,f)&&(i(e)||o(e))}},function(e,t,n){var r=n(4),o=n(43),i=n(44),a=n(74);e.exports=function(e,t){return r(e)?e:o(e,t)?[e]:i(a(e))}},function(e,t,n){var r=n(4),o=n(7),i=/\.|\[(?:[^[\]]*|(["'])(?:(?!\1)[^\\]|\\.)*?\1)\]/,a=/^\w*$/;e.exports=function(e,t){if(r(e))return!1;var n=typeof e;return!("number"!=n&&"symbol"!=n&&"boolean"!=n&&null!=e&&!o(e))||a.test(e)||!i.test(e)||null!=t&&e in Object(t)}},function(e,t,n){var r=n(45),o=/[^.[\]]+|\[(?:(-?\d+(?:\.\d+)?)|(["'])((?:(?!\2)[^\\]|\\.)*?)\2)\]|(?=(?:\.|\[\])(?:\.|\[\]|$))/g,i=/\\(\\)?/g,a=r((function(e){var t=[];return 46===e.charCodeAt(0)&&t.push(""),e.replace(o,(function(e,n,r,o){t.push(r?o.replace(i,"$1"):n||e)})),t}));e.exports=a},function(e,t,n){var r=n(46);e.exports=function(e){var t=r(e,(function(e){return 500===n.size&&n.clear(),e})),n=t.cache;return t}},function(e,t,n){var r=n(47);function o(e,t){if("function"!=typeof e||null!=t&&"function"!=typeof t)throw new TypeError("Expected a function");var n=function(){var r=arguments,o=t?t.apply(this,r):r[0],i=n.cache;if(i.has(o))return i.get(o);var a=e.apply(this,r);return n.cache=i.set(o,a)||i,a};return n.cache=new(o.Cache||r),n}o.Cache=r,e.exports=o},function(e,t,n){var r=n(48),o=n(69),i=n(71),a=n(72),u=n(73);function c(e){var t=-1,n=null==e?0:e.length;for(this.clear();++t<n;){var r=e[t];this.set(r[0],r[1])}}c.prototype.clear=r,c.prototype.delete=o,c.prototype.get=i,c.prototype.has=a,c.prototype.set=u,e.exports=c},function(e,t,n){var r=n(49),o=n(61),i=n(68);e.exports=function(){this.size=0,this.__data__={hash:new r,map:new(i||o),string:new r}}},function(e,t,n){var r=n(50),o=n(57),i=n(58),a=n(59),u=n(60);function c(e){var t=-1,n=null==e?0:e.length;for(this.clear();++t<n;){var r=e[t];this.set(r[0],r[1])}}c.prototype.clear=r,c.prototype.delete=o,c.prototype.get=i,c.prototype.has=a,c.prototype.set=u,e.exports=c},function(e,t,n){var r=n(9);e.exports=function(){this.__data__=r?r(null):{},this.size=0}},function(e,t,n){var r=n(52),o=n(53),i=n(5),a=n(55),u=/^\[object .+?Constructor\]$/,c=Function.prototype,s=Object.prototype,f=c.toString,l=s.hasOwnProperty,p=RegExp("^"+f.call(l).replace(/[\\^$.*+?()[\]{}|]/g,"\\$&").replace(/hasOwnProperty|(function).*?(?=\\\()| for .+?(?=\\\])/g,"$1.*?")+"$");e.exports=function(e){return!(!i(e)||o(e))&&(r(e)?p:u).test(a(e))}},function(e,t,n){var r=n(15),o=n(5);e.exports=function(e){if(!o(e))return!1;var t=r(e);return"[object Function]"==t||"[object GeneratorFunction]"==t||"[object AsyncFunction]"==t||"[object Proxy]"==t}},function(e,t,n){var r,o=n(54),i=(r=/[^.]+$/.exec(o&&o.keys&&o.keys.IE_PROTO||""))?"Symbol(src)_1."+r:"";e.exports=function(e){return!!i&&i in e}},function(e,t,n){var r=n(6)["__core-js_shared__"];e.exports=r},function(e,t){var n=Function.prototype.toString;e.exports=function(e){if(null!=e){try{return n.call(e)}catch(e){}try{return e+""}catch(e){}}return""}},function(e,t){e.exports=function(e,t){return null==e?void 0:e[t]}},function(e,t){e.exports=function(e){var t=this.has(e)&&delete this.__data__[e];return this.size-=t?1:0,t}},function(e,t,n){var r=n(9),o=Object.prototype.hasOwnProperty;e.exports=function(e){var t=this.__data__;if(r){var n=t[e];return"__lodash_hash_undefined__"===n?void 0:n}return o.call(t,e)?t[e]:void 0}},function(e,t,n){var r=n(9),o=Object.prototype.hasOwnProperty;e.exports=function(e){var t=this.__data__;return r?void 0!==t[e]:o.call(t,e)}},function(e,t,n){var r=n(9);e.exports=function(e,t){var n=this.__data__;return this.size+=this.has(e)?0:1,n[e]=r&&void 0===t?"__lodash_hash_undefined__":t,this}},function(e,t,n){var r=n(62),o=n(63),i=n(65),a=n(66),u=n(67);function c(e){var t=-1,n=null==e?0:e.length;for(this.clear();++t<n;){var r=e[t];this.set(r[0],r[1])}}c.prototype.clear=r,c.prototype.delete=o,c.prototype.get=i,c.prototype.has=a,c.prototype.set=u,e.exports=c},function(e,t){e.exports=function(){this.__data__=[],this.size=0}},function(e,t,n){var r=n(10),o=Array.prototype.splice;e.exports=function(e){var t=this.__data__,n=r(t,e);return!(n<0||(n==t.length-1?t.pop():o.call(t,n,1),--this.size,0))}},function(e,t){e.exports=function(e,t){return e===t||e!=e&&t!=t}},function(e,t,n){var r=n(10);e.exports=function(e){var t=this.__data__,n=r(t,e);return n<0?void 0:t[n][1]}},function(e,t,n){var r=n(10);e.exports=function(e){return-1<r(this.__data__,e)}},function(e,t,n){var r=n(10);e.exports=function(e,t){var n=this.__data__,o=r(n,e);return o<0?(++this.size,n.push([e,t])):n[o][1]=t,this}},function(e,t,n){var r=n(21)(n(6),"Map");e.exports=r},function(e,t,n){var r=n(11);e.exports=function(e){var t=r(this,e).delete(e);return this.size-=t?1:0,t}},function(e,t){e.exports=function(e){var t=typeof e;return"string"==t||"number"==t||"symbol"==t||"boolean"==t?"__proto__"!==e:null===e}},function(e,t,n){var r=n(11);e.exports=function(e){return r(this,e).get(e)}},function(e,t,n){var r=n(11);e.exports=function(e){return r(this,e).has(e)}},function(e,t,n){var r=n(11);e.exports=function(e,t){var n=r(this,e),o=n.size;return n.set(e,t),this.size+=n.size==o?0:1,this}},function(e,t,n){var r=n(75);e.exports=function(e){return null==e?"":r(e)}},function(e,t,n){var r=n(8),o=n(76),i=n(4),a=n(7),u=r?r.prototype:void 0,c=u?u.toString:void 0;e.exports=function e(t){if("string"==typeof t)return t;if(i(t))return o(t,e)+"";if(a(t))return c?c.call(t):"";var n=t+"";return"0"==n&&1/t==-1/0?"-0":n}},function(e,t){e.exports=function(e,t){for(var n=-1,r=null==e?0:e.length,o=Array(r);++n<r;)o[n]=t(e[n],n,e);return o}},function(e,t,n){var r=n(15),o=n(16);e.exports=function(e){return o(e)&&"[object Arguments]"==r(e)}},function(e,t){var n=/^(?:0|[1-9]\d*)$/;e.exports=function(e,t){var r=typeof e;return!!(t=null==t?9007199254740991:t)&&("number"==r||"symbol"!=r&&n.test(e))&&-1<e&&e%1==0&&e<t}},function(e,t){e.exports=function(e){return"number"==typeof e&&-1<e&&e%1==0&&e<=9007199254740991}},function(e,t,n){var r=n(7);e.exports=function(e){if("string"==typeof e||r(e))return e;var t=e+"";return"0"==t&&1/e==-1/0?"-0":t}},function(e,t,n){var r=n(23),o=n(82);e.exports=function e(t,n,i,a,u){var c=-1,s=t.length;for(i=i||o,u=u||[];++c<s;){var f=t[c];0<n&&i(f)?1<n?e(f,n-1,i,a,u):r(u,f):a||(u[u.length]=f)}return u}},function(e,t,n){var r=n(8),o=n(22),i=n(4),a=r?r.isConcatSpreadable:void 0;e.exports=function(e){return i(e)||o(e)||!!(a&&e&&e[a])}},function(e,t){e.exports=function(e,t){var n=-1,r=e.length;for(t=t||Array(r);++n<r;)t[n]=e[n];return t}},function(e,t){e.exports=function(e,t){for(var n=-1,r=Array(e);++n<e;)r[n]=t(n);return r}},function(e,t,n){var r=n(86);e.exports=function(e){return"function"==typeof e?e:r}},function(e,t){e.exports=function(e){return e}},function(e,t,n){var r=n(88);e.exports=function(e){var t=r(e),n=t%1;return t==t?n?t-n:t:0}},function(e,t,n){var r=n(20);e.exports=function(e){return e?(e=r(e))!==1/0&&e!==-1/0?e==e?e:0:17976931348623157e292*(e<0?-1:1):0===e?e:0}},function(e,t,n){"use strict";n.r(t),n.d(t,"Dots",(function(){return $e}));var r=n(0),o=n.n(r),i=n(3),a=n.n(i),u=n(1),c=n(24),s=n.n(c),f=n(25),l=n.n(f),p=n(17),d=n.n(p),h=n(18),y=n.n(h),v=n(2),b=n.n(v),g=n(26),m=n(12),w=function(e){var t=typeof e;return null!=e&&("object"==t||"function"==t)},_=n(27),O="object"==typeof self&&self&&self.Object===Object&&self,S=_.a||O||Function("return this")(),x=function(){return S.Date.now()},E=S.Symbol,P=Object.prototype,j=P.hasOwnProperty,C=P.toString,R=E?E.toStringTag:void 0,T=function(e){var t=j.call(e,R),n=e[R];try{var r=!(e[R]=void 0)}catch(e){}var o=C.call(e);return r&&(t?e[R]=n:delete e[R]),o},k=Object.prototype.toString,M=function(e){return k.call(e)},A=E?E.toStringTag:void 0,L=function(e){return null==e?void 0===e?"[object Undefined]":"[object Null]":(A&&A in Object(e)?T:M)(e)},I=/^\s+|\s+$/g,$=/^[-+]0x[0-9a-f]+$/i,z=/^0b[01]+$/i,D=/^0o[0-7]+$/i,W=parseInt,N=function(e){if("number"==typeof e)return e;if(function(e){return"symbol"==typeof e||function(e){return null!=e&&"object"==typeof e}(e)&&"[object Symbol]"==L(e)}(e))return NaN;var t;if(w(e)&&(t="function"==typeof e.valueOf?e.valueOf():e,e=w(t)?t+"":t),"string"!=typeof e)return 0===e?e:+e;e=e.replace(I,"");var n=z.test(e);return n||D.test(e)?W(e.slice(2),n?2:8):$.test(e)?NaN:+e},F=Math.max,B=Math.min,V=function(e,t,n){var r,o,i,a,u,c,s=0,f=!1,l=!1,p=!0;if("function"!=typeof e)throw new TypeError("Expected a function");function d(t){var n=r,i=o;return r=o=void 0,s=t,a=e.apply(i,n)}function h(e){var n=e-c;return void 0===c||t<=n||n<0||l&&i<=e-s}function y(){var e,n,r=x();if(h(r))return v(r);u=setTimeout(y,(n=t-((e=r)-c),l?B(n,i-(e-s)):n))}function v(e){return u=void 0,p&&r?d(e):(r=o=void 0,a)}function b(){var e,n=x(),i=h(n);if(r=arguments,o=this,c=n,i){if(void 0===u)return s=e=c,u=setTimeout(y,t),f?d(e):a;if(l)return clearTimeout(u),u=setTimeout(y,t),d(c)}return void 0===u&&(u=setTimeout(y,t)),a}return t=N(t)||0,w(n)&&(f=!!n.leading,i=(l="maxWait"in n)?F(N(n.maxWait)||0,t):i,p="trailing"in n?!!n.trailing:p),b.cancel=function(){void 0!==u&&clearTimeout(u),r=c=o=u=void(s=0)},b.flush=function(){return void 0===u?a:v(x())},b};function H(e){return"function"==typeof e}function q(){return"undefined"==typeof window}function U(e){return e instanceof Element||e instanceof HTMLDocument}var X={debounce:V,throttle:function(e,t,n){var r=!0,o=!0;if("function"!=typeof e)throw new TypeError("Expected a function");return w(n)&&(r="leading"in n?!!n.leading:r,o="trailing"in n?!!n.trailing:o),V(e,t,{leading:r,maxWait:t,trailing:o})}};function Y(e){return(Y="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function G(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function J(e,t){return(J=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function K(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function Q(e){return(Q=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function Z(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}var ee=function(){!function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&J(e,t)}(i,r.PureComponent);var e,t,n=function(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var n,r,o,i=Q(e);return r=this,!(o=t?(n=Q(this).constructor,Reflect.construct(i,arguments,n)):i.apply(this,arguments))||"object"!==Y(o)&&"function"!=typeof o?K(r):o}}(i);function i(e){var t;!function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,i),Z(K(t=n.call(this,e)),"cancelHandler",(function(){t.resizeHandler&&t.resizeHandler.cancel&&(t.resizeHandler.cancel(),t.resizeHandler=null)})),Z(K(t),"rafClean",(function(){t.raf&&t.raf.cancel&&(t.raf.cancel(),t.raf=null)})),Z(K(t),"toggleObserver",(function(e){var n=t.getElement();n&&t.resizeObserver[e]&&t.resizeObserver[e](n)})),Z(K(t),"getElement",(function(){var e=t.props,n=e.querySelector,r=e.targetDomEl;if(!q()){if(n)return document.querySelector(n);if(r&&U(r))return r;if(t.targetRef&&U(t.targetRef.current))return t.targetRef.current;var o=Object(g.findDOMNode)(K(t));if(o)switch(t.getRenderType()){case"renderProp":case"childFunction":case"child":case"childArray":return o;default:return o.parentElement}}})),Z(K(t),"createUpdater",(function(){return t.rafClean(),t.raf=function(e){function t(){for(var t=arguments.length,o=new Array(t),i=0;i<t;i++)o[i]=arguments[i];n=o,r=r||requestAnimationFrame((function(){r=null,e.apply(void 0,n)}))}var n=[],r=null;return t.cancel=function(){r&&(cancelAnimationFrame(r),r=null)},t}((function(e){var n=e.width,r=e.height,o=t.props.onResize;H(o)&&o(n,r),t.setState({width:n,height:r})})),t.raf})),Z(K(t),"createResizeHandler",(function(e){var n,r=t.state,o=r.width,i=r.height,a=t.props,u=a.handleWidth,c=a.handleHeight;(u||c)&&(n=t.createUpdater(),e.forEach((function(e){var r=e&&e.contentRect||{},a=r.width,s=r.height,f=u&&o!==a||c&&i!==s;t.skipOnMount||!f||q()||n({width:a,height:s}),t.skipOnMount=!1})))})),Z(K(t),"getRenderType",(function(){var e=t.props,n=e.render,o=e.children;return H(n)?"renderProp":H(o)?"childFunction":Object(r.isValidElement)(o)?"child":Array.isArray(o)?"childArray":"parent"}));var o=e.skipOnMount,a=e.refreshMode,u=e.refreshRate,c=e.refreshOptions;t.state={width:void 0,height:void 0},t.skipOnMount=o,t.raf=null,t.unmounted=!1,t.targetRef=Object(r.createRef)();var s=X[a];return t.resizeHandler=s?s(t.createResizeHandler,u,c):t.createResizeHandler,t.resizeObserver=new m.a(t.resizeHandler),t}return e=i,(t=[{key:"componentDidMount",value:function(){var e=this.props.targetRef;e&&e.current&&(this.targetRef.current=e.current),this.toggleObserver("observe")}},{key:"componentWillUnmount",value:function(){this.toggleObserver("unobserve"),this.rafClean(),this.cancelHandler(),this.unmounted=!0}},{key:"render",value:function(){var e=this.props,t=e.render,n=e.children,i=e.nodeType,a=this.state,u={width:a.width,height:a.height,targetRef:this.targetRef};switch(this.getRenderType()){case"renderProp":return t(u);case"childFunction":return n(u);case"child":if("string"!=typeof n.type)return Object(r.cloneElement)(n,u);var c=function(e,t){if(null==e)return{};var n,r=function(e,t){if(null==e)return{};var n,r,o={},i=Object.keys(e);for(r=0;r<i.length;r++)n=i[r],0<=t.indexOf(n)||(o[n]=e[n]);return o}(e,t);if(Object.getOwnPropertySymbols)for(var o=Object.getOwnPropertySymbols(e),i=0;i<o.length;i++)n=o[i],0<=t.indexOf(n)||Object.prototype.propertyIsEnumerable.call(e,n)&&(r[n]=e[n]);return r}(u,["targetRef"]);return Object(r.cloneElement)(n,c);case"childArray":return n.map((function(e){return!!e&&Object(r.cloneElement)(e,u)}));default:return o.a.createElement(i,null)}}}])&&G(e.prototype,t),i}();ee.propTypes={handleWidth:u.bool,handleHeight:u.bool,skipOnMount:u.bool,refreshRate:u.number,refreshMode:u.string,refreshOptions:Object(u.shape)({leading:u.bool,trailing:u.bool}),querySelector:u.string,targetDomEl:u.any,targetRef:Object(u.oneOfType)([u.func,Object(u.shape)({current:u.any})]),onResize:u.func,render:u.func,children:u.any,nodeType:u.node},ee.defaultProps={handleWidth:!0,handleHeight:!0,skipOnMount:!1,refreshRate:1e3,refreshMode:void 0,refreshOptions:void 0,querySelector:null,targetDomEl:null,targetRef:null,onResize:null,render:void 0,children:null,nodeType:"div"};var te=ee;function ne(e){return(ne="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function re(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function oe(e,t){return(oe=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function ie(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function ae(e){return(ae=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function ue(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}n(90);var ce=function(){!function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&oe(e,t)}(i,r.PureComponent);var e,t,n=function(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var n,r,o,i=ae(e);return r=this,!(o=t?(n=ae(this).constructor,Reflect.construct(i,arguments,n)):i.apply(this,arguments))||"object"!==ne(o)&&"function"!=typeof o?ie(r):o}}(i);function i(e){var t;return function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,i),ue(ie(t=n.call(this,e)),"onMouseDown",(function(e){t.props.onMouseDown(e,t.props.index)})),ue(ie(t),"onTouchStart",(function(e){t.props.onTouchStart(e,t.props.index)})),t.childrenRef=o.a.createRef(),t}return e=i,(t=[{key:"componentDidMount",value:function(){this.observeWidth()}},{key:"componentDidUpdate",value:function(e){e.width!==this.props.width&&this.resizeChildren()}},{key:"observeWidth",value:function(){var e=this,t=new m.a((function(){e.resizeChildren(),e.childrenRef.current&&t.unobserve(e.childrenRef.current)}));this.childrenRef.current&&t.observe(this.childrenRef.current)}},{key:"resizeChildren",value:function(){this.childrenRef.current&&(this.childrenRef.current.style=null,this.childrenRef.current.offsetWidth>this.props.width&&(this.childrenRef.current.style.width="".concat(this.props.width,"px")))}},{key:"getChildren",value:function(){return this.childrenRef.current?o.a.cloneElement(this.props.children,{ref:this.childrenRef}):this.props.children}},{key:"render",value:function(){return o.a.createElement("li",{className:b()("BrainhubCarouselItem",{"BrainhubCarouselItem--clickable":this.props.clickable,"BrainhubCarouselItem--active":this.props.index===this.props.currentSlideIndex}),style:{marginLeft:"".concat(this.props.offset/2,"px"),marginRight:"".concat(this.props.offset/2,"px"),width:"".concat(this.props.width,"px"),maxWidth:"".concat(this.props.width,"px"),minWidth:"".concat(this.props.width,"px"),pointerEvents:this.props.isDragging?"none":null},onMouseDown:this.props.isDraggingEnabled?this.onMouseDown:null,onTouchStart:this.props.isDraggingEnabled?this.onTouchStart:null},this.getChildren())}}])&&re(e.prototype,t),i}();function se(e){return(se="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function fe(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function le(e,t){return(le=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function pe(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function de(e){return(de=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function he(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}n(94);var ye=function(){!function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&le(e,t)}(i,r.Component);var e,t,n=function(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var n,r,o,i=de(e);return r=this,!(o=t?(n=de(this).constructor,Reflect.construct(i,arguments,n)):i.apply(this,arguments))||"object"!==se(o)&&"function"!=typeof o?pe(r):o}}(i);function i(){var e;!function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,i);for(var t=arguments.length,r=new Array(t),o=0;o<t;o++)r[o]=arguments[o];return he(pe(e=n.call.apply(n,[this].concat(r))),"onChange",(function(t){return function(){var n=e.props.number||e.props.thumbnails.length,r=e.calculateButtonValue()%n;return e.props.onChange(e.props.value-(r-t))}})),he(pe(e),"calculateButtonValue",(function(){var t=e.props.number||e.props.thumbnails.length;return 0<=e.props.value?e.props.value:e.props.value+t*Math.ceil(Math.abs(e.props.value/t))})),e}return e=i,(t=[{key:"renderCarouselDots",value:function(){var e=this;if(this.props.thumbnails){var t=isNaN(this.props.number)?this.props.thumbnails.length:this.props.number;return this.props.thumbnails.slice(0,t).map((function(n,r){return o.a.createElement("li",{key:r},o.a.createElement("button",{className:b()("BrainhubCarousel__thumbnail",{"BrainhubCarousel__thumbnail--selected":r===e.calculateButtonValue()%t}),type:"button",onClick:e.onChange(r)},n))}))}for(var n=[],r=0;r<this.props.number;r++)n.push(o.a.createElement("li",{key:r},o.a.createElement("button",{className:b()("BrainhubCarousel__dot",{"BrainhubCarousel__dot--selected":r===this.calculateButtonValue()%this.props.number}),type:"button",onClick:this.onChange(r)},r+1)));return n}},{key:"render",value:function(){var e=this.props,t=e.className,n=e.rtl;return o.a.createElement("ul",{className:b()("BrainhubCarousel__dots",t,n?"BrainhubCarousel__dots--isRTL":"")},this.renderCarouselDots())}}])&&fe(e.prototype,t),i}();function ve(e){return(ve="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function be(e){return function(e){if(Array.isArray(e))return ge(e)}(e)||function(e){if("undefined"!=typeof Symbol&&Symbol.iterator in Object(e))return Array.from(e)}(e)||function(e,t){if(e){if("string"==typeof e)return ge(e,t);var n=Object.prototype.toString.call(e).slice(8,-1);return"Object"===n&&e.constructor&&(n=e.constructor.name),"Map"===n||"Set"===n?Array.from(e):"Arguments"===n||/^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)?ge(e,t):void 0}}(e)||function(){throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")}()}function ge(e,t){(null==t||t>e.length)&&(t=e.length);for(var n=0,r=new Array(t);n<t;n++)r[n]=e[n];return r}function me(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function we(e,t){return(we=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function _e(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function Oe(e){return(Oe=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}function Se(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}n(96),n(98);var xe=o.a.createElement("i",{className:"BrainhubCarousel__loader"}),Ee=o.a.createElement("span",null,"prev"),Pe=o.a.createElement("span",null,"next"),je=function(){!function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&we(e,t)}(i,r.Component);var e,t,n=function(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var n,r,o,i=Oe(e);return r=this,!(o=t?(n=Oe(this).constructor,Reflect.construct(i,arguments,n)):i.apply(this,arguments))||"object"!==ve(o)&&"function"!=typeof o?_e(r):o}}(i);function i(e){var t;return function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,i),Se(_e(t=n.call(this,e)),"getCurrentValue",(function(){return t.props.infinite?t.props.value:t.clamp(t.props.value)})),Se(_e(t),"getNeededAdditionalClones",(function(){return Math.abs(t.getCurrentSlideIndex())>t.getChildren().length?Math.ceil((t.getCurrentValue()-t.state.infiniteTransitionFrom)/t.getChildren().length):0})),Se(_e(t),"getAdditionalClonesLeft",(function(){var e=t.getNeededAdditionalClones();return e<0?-e:0})),Se(_e(t),"getAdditionalClonesRight",(function(){var e=t.getNeededAdditionalClones();return 0<e?e:0})),Se(_e(t),"getClonesLeft",(function(){return 3+t.getAdditionalClonesLeft()})),Se(_e(t),"getClonesRight",(function(){return 3+t.getAdditionalClonesRight()})),Se(_e(t),"getAdditionalClonesOffset",(function(){return-t.getChildren().length*t.getCarouselElementWidth()*t.getAdditionalClonesLeft()})),Se(_e(t),"getProp",(function(e){var n,r=(1<arguments.length&&void 0!==arguments[1]?arguments[1]:null)||t.props,o=null;return r.breakpoints&&(n=t.state.windowWidth,Object.keys(r.breakpoints).forEach((function(e){var t=parseInt(e);n<=t&&(!o||t<o)&&(o=t)}))),o&&l()(r.breakpoints[o],e)?r.breakpoints[o][e]:r[e]})),Se(_e(t),"hoop",(function(e){var n=t.getChildren().length-1;return n<e?{value:e-n-1,hooped:!0}:e<0?{value:e+n+1,hooped:!0}:{value:e,hooped:!1}})),Se(_e(t),"checkIfValueChanged",(function(e){return(t.getProp("infinite")?t.props.value:t.clamp(t.props.value))!==(t.getProp("infinite")?e.value:t.clamp(e.value))})),Se(_e(t),"resetInterval",(function(){t.interval&&clearInterval(t.interval);var e=t.getProp("autoPlay");a()(e)||(t.interval=setInterval((function(){document.hidden||t.state.isAutoPlayStopped||t.nextSlide()}),e))})),Se(_e(t),"getChildren",(function(){return t.props.children?Array.isArray(t.props.children)?t.props.children:[t.props.children]:t.props.slides?t.props.slides:[]})),Se(_e(t),"getActiveSlideIndex",(function(){return t.getProp("infinite")?t.getCurrentSlideIndex()+t.getClonesLeft()*t.getChildren().length:t.getCurrentSlideIndex()})),Se(_e(t),"getTargetMod",(function(){var e=0<arguments.length&&void 0!==arguments[0]?arguments[0]:null,n=a()(e)?t.getCurrentValue():e,r=t.getChildren().length,o=0<=n?n%r:(r-Math.abs(n%r))%r;return o})),Se(_e(t),"getTargetSlide",(function(){return a()(t.state.infiniteTransitionFrom)?t.getTargetMod():t.getTargetMod(t.state.infiniteTransitionFrom)+(t.getCurrentValue()-t.state.infiniteTransitionFrom)})),Se(_e(t),"onResize",s()((function(e){var n,r,o,i;t.node&&(n="function"==typeof e?e:null,r=t.arrowLeftNode&&t.arrowLeftNode.offsetWidth,o=t.arrowRightNode&&t.arrowRightNode.offsetWidth,i=t.node.offsetWidth-(r||0)-(o||0),t.setState((function(){return{carouselWidth:i,windowWidth:window.innerWidth}}),n))}),300)),Se(_e(t),"onMouseDown",(function(e,n){e.preventDefault(),e.stopPropagation();var r=e.pageX;t.setState((function(){return{clicked:n,dragStart:r}}))})),Se(_e(t),"onMouseMove",(function(e){var n=e.pageX;null!==t.state.dragStart&&t.setState((function(e){return{dragOffset:t.getProp("rtl")?e.dragStart-n:n-e.dragStart}}))})),Se(_e(t),"onTouchStart",(function(e,n){var r=e.changedTouches;t.setState((function(){return{clicked:n,dragStart:r[0].pageX}}))})),Se(_e(t),"onMouseUpTouchEnd",(function(e){null!==t.state.dragStart&&(e.preventDefault(),t.getProp("draggable")&&Math.abs(t.state.dragOffset)>10?t.changeSlide(t.getNearestSlideIndex()):t.getProp("clickToChange")&&t.changeSlide(t.getProp("infinite")?t.getCurrentValue()+t.state.clicked-t.getActiveSlideIndex():t.state.clicked),t.setState((function(){return{clicked:null,dragOffset:0,dragStart:null,transitionEnabled:!0}})))})),Se(_e(t),"onTransitionEnd",(function(){var e=t.getProp("infinite");t.setState((function(){return{transitionEnabled:!e,infiniteTransitionFrom:e?t.getCurrentValue():null}}))})),Se(_e(t),"onMouseEnter",(function(){t.setState((function(){return{isAutoPlayStopped:!0}}))})),Se(_e(t),"onMouseLeave",(function(){t.setState((function(){return{isAutoPlayStopped:!1}})),t.resetInterval()})),Se(_e(t),"simulateEvent",(function(e){var t=e.changedTouches[0],n=t.screenX,r=t.screenY,o=t.clientX,i=t.clientY,a=new MouseEvent({touchstart:"mousedown",touchmove:"mousemove",touchend:"mouseup"}[e.type],{bubbles:!0,cancelable:!0,view:window,detail:1,screenX:n,screenY:r,clientX:o,clientY:i});t.target.dispatchEvent(a)})),Se(_e(t),"clamp",(function(e){var n=t.getChildren().length-1;return n<e?n:e<0?0:e})),Se(_e(t),"changeSlide",(function(e){return t.props.onChange(t.getProp("infinite")?e:t.clamp(e))})),Se(_e(t),"nextSlide",(function(){return t.changeSlide(t.getCurrentValue()+t.getProp("slidesPerScroll"))})),Se(_e(t),"prevSlide",(function(){return t.changeSlide(t.getCurrentValue()-t.getProp("slidesPerScroll"))})),Se(_e(t),"getNearestSlideIndex",(function(){var e=t.getProp("keepDirectionWhenDragging")?0<t.state.dragOffset?-Math.ceil(t.state.dragOffset/t.getCarouselElementWidth()):-Math.floor(t.state.dragOffset/t.getCarouselElementWidth()):-Math.round(t.state.dragOffset/t.getCarouselElementWidth());return t.getCurrentValue()+e})),Se(_e(t),"getCurrentSlideIndex",(function(){return t.getProp("infinite")?t.getTargetSlide():t.clamp(t.getCurrentValue())})),Se(_e(t),"getCarouselElementWidth",(function(){return t.getProp("itemWidth")||t.state.carouselWidth/t.getProp("slidesPerPage")})),Se(_e(t),"getTransformOffset",(function(){var e=t.getCarouselElementWidth()+t.getProp("offset"),n=t.getProp("centered")?t.state.carouselWidth/2-e/2:0;return(t.getProp("draggable")?t.state.dragOffset:0)-t.getActiveSlideIndex()*e+n-t.getAdditionalClonesOffset()})),Se(_e(t),"renderCarouselItems",(function(){var e=t.getProp("lazyLoad"),n=t.getProp("rtl"),r=t.getTransformOffset(),i=t.getChildren(),a=t.getClonesLeft(),u=t.getClonesRight(),c=1+(t.getProp("infinite")?a+u:0),s=t.state.carouselWidth*i.length*c,f=t.getProp("animationSpeed"),l=t.state.transitionEnabled,p=t.getProp("draggable")&&i&&1<i.length,h={width:"".concat(s,"px"),transitionDuration:l?"".concat(f,"ms, ").concat(f,"ms"):null};n?(h.marginRight="".concat(t.getAdditionalClonesOffset(),"px"),h.transform="translateX(".concat(-r,"px)")):(h.marginLeft="".concat(t.getAdditionalClonesOffset(),"px"),h.transform="translateX(".concat(r,"px)"));var v,g,m=i;function w(e){return _&&O?e:null}t.getProp("infinite")&&(v=y()(a,(function(){return i})),g=y()(u,(function(){return i})),m=n?d.a.apply(void 0,be(g).concat([i],be(v))):d.a.apply(void 0,be(v).concat([i],be(g))));var _=t.getProp("autoPlay"),O=t.getProp("stopAutoPlayOnHover");return o.a.createElement("div",{className:"BrainhubCarousel__trackContainer"},o.a.createElement("ul",{className:b()("BrainhubCarousel__track",{"BrainhubCarousel__track--transition":l,"BrainhubCarousel__track--draggable":p}),style:h,ref:function(e){return t.trackRef=e},onMouseEnter:w(t.onMouseEnter),onMouseLeave:w(t.onMouseLeave)},m.map((function(n,r){var i=t.getTargetMod(r);return[null,void 0].includes(n)?null:o.a.createElement(ce,{key:r,currentSlideIndex:t.getActiveSlideIndex(),index:r,width:t.getCarouselElementWidth(),offset:r!==m.length?t.getProp("offset"):0,onMouseDown:t.onMouseDown,onTouchStart:t.onTouchStart,clickable:t.getProp("clickToChange"),isDragging:Math.abs(t.state.dragOffset)>t.props.minDraggableOffset,isDraggingEnabled:t.props.draggable||t.props.clickToChange},!e||e&&t.state.lazyLoadedSlides[i]?n:t.renderLazyLoader())}))))})),Se(_e(t),"renderLazyLoader",(function(){return t.getProp("lazyLoader")||xe})),Se(_e(t),"renderArrowWithAddedHandler",(function(e,n,r){var i=3<arguments.length&&void 0!==arguments[3]&&arguments[3];return o.a.createElement("div",{className:b()("BrainhubCarousel__customArrows",{"BrainhubCarousel__arrow--disable":i},"BrainhubCarousel__custom-".concat(r)),ref:function(e){return t["".concat(r,"Node")]=e},onClick:t.getProp("addArrowClickHandler")?n:null},e)})),Se(_e(t),"renderArrowLeft",(function(){var e=t.getCurrentValue()<=0&&!t.getProp("infinite");if(t.getProp("arrowLeft")){if(!e)return t.renderArrowWithAddedHandler(t.getProp("arrowLeft"),t.prevSlide,"arrowLeft");var n=t.getProp("arrowLeftDisabled")?t.getProp("arrowLeftDisabled"):t.getProp("arrowLeft");return t.renderArrowWithAddedHandler(n,t.prevSlide,"arrowLeft",e)}return t.getProp("arrows")?o.a.createElement("button",{className:"BrainhubCarousel__arrows BrainhubCarousel__arrowLeft",onClick:t.prevSlide,ref:function(e){return t.arrowLeftNode=e},disabled:e},Ee):null})),Se(_e(t),"renderArrowRight",(function(){var e=t.getChildren(),n=t.getCurrentValue()===e.length-1&&!t.getProp("infinite");if(t.getProp("arrowRight")){if(!n)return t.renderArrowWithAddedHandler(t.getProp("arrowRight"),t.nextSlide,"arrowRight");var r=t.getProp("arrowRightDisabled")?t.getProp("arrowRightDisabled"):t.getProp("arrowRight");return t.renderArrowWithAddedHandler(r,t.nextSlide,"arrowRight",n)}return t.getProp("arrows")?o.a.createElement("button",{className:"BrainhubCarousel__arrows BrainhubCarousel__arrowRight",onClick:t.nextSlide,ref:function(e){return t.arrowRightNode=e},disabled:n},Pe):null})),t.state={carouselWidth:0,windowWidth:0,clicked:null,dragOffset:0,dragStart:null,transitionEnabled:!1,infiniteTransitionFrom:e.infinite?e.value:null,isAutoPlayStopped:!1,lazyLoadedSlides:[]},t.interval=null,t}return e=i,(t=[{key:"componentDidMount",value:function(){var e=this;this.trackRef&&this.trackRef.addEventListener("transitionend",this.onTransitionEnd),this.node&&(this.node.parentElement.addEventListener("mousemove",this.onMouseMove,{passive:!0,capture:!0}),document.addEventListener("mouseup",this.onMouseUpTouchEnd,!0),this.node.parentElement.addEventListener("touchstart",this.simulateEvent,{passive:!0,capture:!0}),this.node.parentElement.addEventListener("touchmove",this.simulateEvent,{passive:!1}),this.node.parentElement.addEventListener("touchend",this.simulateEvent,{passive:!0,capture:!0})),this.onResize((function(){e.setLazyLoadedSlides()})),this.resetInterval(),"function"==typeof this.props.onInit&&this.props.onInit()}},{key:"componentDidUpdate",value:function(e,t){var n=this.checkIfValueChanged(e),r=this.state.windowWidth!==t.windowWidth;this.getProp("autoPlay")===this.getProp("autoPlay",e)&&!n||this.resetInterval(),n&&this.setState({transitionEnabled:!0}),this.getProp("lazyLoad")&&(r||n)&&this.setLazyLoadedSlides()}},{key:"componentWillUnmount",value:function(){this.trackRef&&this.trackRef.removeEventListener("transitionend",this.onTransitionEnd),this.node&&(this.node.parentElement.removeEventListener("mousemove",this.onMouseMove),document.removeEventListener("mouseup",this.onMouseUpTouchEnd),this.node.parentElement.removeEventListener("touchstart",this.simulateEvent),this.node.parentElement.removeEventListener("touchmove",this.simulateEvent),this.node.parentElement.removeEventListener("touchend",this.simulateEvent)),this.interval&&clearInterval(this.interval)}},{key:"setLazyLoadedSlides",value:function(){var e,t,n,r,o,i,a=this,u=this.getChildren(),c=this.getCurrentSlideIndex(),s=this.getProp("slidesPerScroll"),f=this.getProp("slidesPerPage"),l=this.getProp("infinite"),p=c-s,d=c+(f-1)+s,h=!1,y=this.clamp(p),v=this.clamp(d);l&&(t=(e=this.hoop(p)).value,n=e.hooped,o=(r=this.hoop(d)).value,i=r.hooped,y=t,v=o,h=n||i);var b=u.map((function(e,t){return!(!h||!(y<=t||t<=v))||y<=t&&t<=v||!!a.state.lazyLoadedSlides[t]}));this.setState({lazyLoadedSlides:b})}},{key:"renderDots",value:function(){return this.getProp("dots")?o.a.createElement(ye,{value:this.getCurrentValue(),onChange:this.changeSlide,number:this.getChildren().length,rtl:this.getProp("rtl")}):null}},{key:"render",value:function(){var e=this,t=this.getProp("rtl");return o.a.createElement("div",{className:"BrainhubCarousel__container"},o.a.createElement("div",{className:b()("BrainhubCarousel",this.getProp("className"),{"BrainhubCarousel--isRTL":t}),ref:function(t){return e.node=t}},o.a.createElement(te,{handleWidth:!0,onResize:this.onResize},o.a.createElement(this.renderArrowLeft,{key:"arrow-left"}),o.a.createElement(this.renderCarouselItems,{key:"carousel"}),o.a.createElement(this.renderArrowRight,{key:"arrow-right"}))),this.renderDots())}}])&&me(e.prototype,t),i}();Se(je,"defaultProps",{offset:0,slidesPerPage:1,slidesPerScroll:1,animationSpeed:500,draggable:!0,rtl:!1,lazyLoad:!1,minDraggableOffset:10});var Ce=je;function Re(e){return(Re="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e})(e)}function Te(){return(Te=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var r in n)Object.prototype.hasOwnProperty.call(n,r)&&(e[r]=n[r])}return e}).apply(this,arguments)}function ke(e,t){for(var n=0;n<t.length;n++){var r=t[n];r.enumerable=r.enumerable||!1,r.configurable=!0,"value"in r&&(r.writable=!0),Object.defineProperty(e,r.key,r)}}function Me(e,t){return(Me=Object.setPrototypeOf||function(e,t){return e.__proto__=t,e})(e,t)}function Ae(e){if(void 0===e)throw new ReferenceError("this hasn't been initialised - super() hasn't been called");return e}function Le(e){return(Le=Object.setPrototypeOf?Object.getPrototypeOf:function(e){return e.__proto__||Object.getPrototypeOf(e)})(e)}var Ie=function(){!function(e,t){if("function"!=typeof t&&null!==t)throw new TypeError("Super expression must either be null or a function");e.prototype=Object.create(t&&t.prototype,{constructor:{value:e,writable:!0,configurable:!0}}),t&&Me(e,t)}(i,r.Component);var e,t,n=function(e){var t=function(){if("undefined"==typeof Reflect||!Reflect.construct)return!1;if(Reflect.construct.sham)return!1;if("function"==typeof Proxy)return!0;try{return Date.prototype.toString.call(Reflect.construct(Date,[],(function(){}))),!0}catch(e){return!1}}();return function(){var n,r,o,i=Le(e);return r=this,!(o=t?(n=Le(this).constructor,Reflect.construct(i,arguments,n)):i.apply(this,arguments))||"object"!==Re(o)&&"function"!=typeof o?Ae(r):o}}(i);function i(e){var t,r,o,u;return function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}(this,i),u=function(e){return function(n){t.setState({value:n}),a()(e)||e(n)}},(o="onChange")in(r=Ae(t=n.call(this,e)))?Object.defineProperty(r,o,{value:u,enumerable:!0,configurable:!0,writable:!0}):r[o]=u,t.state={value:0},t}return e=i,(t=[{key:"render",value:function(){var e=this.props,t=e.value,n=e.onChange,r=function(e,t){if(null==e)return{};var n,r=function(e,t){if(null==e)return{};var n,r,o={},i=Object.keys(e);for(r=0;r<i.length;r++)n=i[r],0<=t.indexOf(n)||(o[n]=e[n]);return o}(e,t);if(Object.getOwnPropertySymbols)for(var o=Object.getOwnPropertySymbols(e),i=0;i<o.length;i++)n=o[i],0<=t.indexOf(n)||Object.prototype.propertyIsEnumerable.call(e,n)&&(r[n]=e[n]);return r}(e,["value","onChange"]),i=!a()(t);return o.a.createElement(Ce,Te({value:i?parseInt(t):this.state.value,onChange:i?n:this.onChange(n)},r))}}])&&ke(e.prototype,t),i}(),$e=ye;t.default=Ie},function(e,t){},,,,function(e,t){},,function(e,t){},,function(e,t){}],n.c=o,n.d=function(e,t,r){n.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},n.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},n.t=function(e,t){if(1&t&&(e=n(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(n.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var o in e)n.d(r,o,function(t){return e[t]}.bind(null,o));return r},n.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return n.d(t,"a",t),t},n.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},n.p="",n(n.s=89);function n(e){if(o[e])return o[e].exports;var t=o[e]={i:e,l:!1,exports:{}};return r[e].call(t.exports,t,t.exports,n),t.l=!0,t.exports}var r,o}));
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/Header/Header.module.css":
 /*!************************************************************************************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./components/Header/Header.module.css ***!
@@ -1236,27 +917,6 @@ exports.locals = {
 	"headerImage": "Layout_headerImage__1iTFY",
 	"headerHomeImage": "Layout_headerHomeImage__1mOTw",
 	"backToHome": "Layout_backToHome__3t10c"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./components/ProjectDetail/ProjectDetail.module.css":
-/*!**************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./components/ProjectDetail/ProjectDetail.module.css ***!
-  \**************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, ".ProjectDetail_projectContainer__3Ligd {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  margin-bottom: 2rem;\n  align-items: center;\n  width: 100%;\n  height: 100%;\n  position: relative;\n}\n\n.ProjectDetail_projectContainer__3Ligd:before {\n  position: absolute;\n  content: \" \";\n  width: 30px;\n  height: 30px;\n  top: -8px;\n  left: -8px;\n  z-index: 1;\n  border-left: 2px solid var(--orange);\n  border-top: 2px solid var(--orange);\n}\n.ProjectDetail_projectContainer__3Ligd:after {\n  position: absolute;\n  content: \"\";\n  width: 30px;\n  height: 30px;\n  right: -8px;\n  bottom: -8px;\n  z-index: 1;\n  border-right: 2px solid var(--orange);\n  border-bottom: 2px solid var(--orange);\n}\n\n\n.ProjectDetail_name__3_ZFI {\n  color: var(--orange);\n  text-align: left;\n  font-size: 1.4rem;\n  font-weight: 600;\n  margin-bottom: 1rem;\n  text-decoration: none;\n}\n\n.ProjectDetail_desc__O4kpy {\n  color: var(--textTitle);\n  font-size: 0.9rem;\n  text-align: justify;\n  line-height: 1.5rem;\n}\n\n.ProjectDetail_url__1DgrY {\n  display: flex;\n  font-size: 0.9rem;\n}\n\n.ProjectDetail_linksContainer__3r5ks {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}", "",{"version":3,"sources":["/home/k3ndr1c/react-projects/nextjs-blog/components/ProjectDetail/ProjectDetail.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,mBAAmB;EACnB,WAAW;EACX,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,kBAAkB;EAClB,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,SAAS;EACT,UAAU;EACV,UAAU;EACV,oCAAoC;EACpC,mCAAmC;AACrC;AACA;EACE,kBAAkB;EAClB,WAAW;EACX,WAAW;EACX,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,UAAU;EACV,qCAAqC;EACrC,sCAAsC;AACxC;;;AAGA;EACE,oBAAoB;EACpB,gBAAgB;EAChB,iBAAiB;EACjB,gBAAgB;EAChB,mBAAmB;EACnB,qBAAqB;AACvB;;AAEA;EACE,uBAAuB;EACvB,iBAAiB;EACjB,mBAAmB;EACnB,mBAAmB;AACrB;;AAEA;EACE,aAAa;EACb,iBAAiB;AACnB;;AAEA;EACE,aAAa;EACb,sBAAsB;EACtB,mBAAmB;AACrB","file":"ProjectDetail.module.css","sourcesContent":[".projectContainer {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  margin-bottom: 2rem;\n  align-items: center;\n  width: 100%;\n  height: 100%;\n  position: relative;\n}\n\n.projectContainer:before {\n  position: absolute;\n  content: \" \";\n  width: 30px;\n  height: 30px;\n  top: -8px;\n  left: -8px;\n  z-index: 1;\n  border-left: 2px solid var(--orange);\n  border-top: 2px solid var(--orange);\n}\n.projectContainer:after {\n  position: absolute;\n  content: \"\";\n  width: 30px;\n  height: 30px;\n  right: -8px;\n  bottom: -8px;\n  z-index: 1;\n  border-right: 2px solid var(--orange);\n  border-bottom: 2px solid var(--orange);\n}\n\n\n.name {\n  color: var(--orange);\n  text-align: left;\n  font-size: 1.4rem;\n  font-weight: 600;\n  margin-bottom: 1rem;\n  text-decoration: none;\n}\n\n.desc {\n  color: var(--textTitle);\n  font-size: 0.9rem;\n  text-align: justify;\n  line-height: 1.5rem;\n}\n\n.url {\n  display: flex;\n  font-size: 0.9rem;\n}\n\n.linksContainer {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}"]}]);
-// Exports
-exports.locals = {
-	"projectContainer": "ProjectDetail_projectContainer__3Ligd",
-	"name": "ProjectDetail_name__3_ZFI",
-	"desc": "ProjectDetail_desc__O4kpy",
-	"url": "ProjectDetail_url__1DgrY",
-	"linksContainer": "ProjectDetail_linksContainer__3r5ks"
 };
 
 /***/ }),
@@ -1527,21 +1187,21 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fprojects&absolutePagePath=%2Fhome%2Fk3ndr1c%2Freact-projects%2Fnextjs-blog%2Fpages%2Fprojects%2Findex.js!./":
-/*!***************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fprojects&absolutePagePath=%2Fhome%2Fk3ndr1c%2Freact-projects%2Fnextjs-blog%2Fpages%2Fprojects%2Findex.js ***!
-  \***************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2Fhome%2Fk3ndr1c%2Freact-projects%2Fnextjs-blog%2Fpages%2Fcontact.js!./":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2Fhome%2Fk3ndr1c%2Freact-projects%2Fnextjs-blog%2Fpages%2Fcontact.js ***!
+  \*****************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
-    (window.__NEXT_P=window.__NEXT_P||[]).push(["/projects", function() {
-      var mod = __webpack_require__(/*! ./pages/projects/index.js */ "./pages/projects/index.js")
+    (window.__NEXT_P=window.__NEXT_P||[]).push(["/contact", function() {
+      var mod = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
       if(true) {
-        module.hot.accept(/*! ./pages/projects/index.js */ "./pages/projects/index.js", function() {
-          if(!next.router.components["/projects"]) return
-          var updatedPage = __webpack_require__(/*! ./pages/projects/index.js */ "./pages/projects/index.js")
-          next.router.update("/projects", updatedPage)
+        module.hot.accept(/*! ./pages/contact.js */ "./pages/contact.js", function() {
+          if(!next.router.components["/contact"]) return
+          var updatedPage = __webpack_require__(/*! ./pages/contact.js */ "./pages/contact.js")
+          next.router.update("/contact", updatedPage)
         })
       }
       return mod
@@ -2207,158 +1867,6 @@ exports.useAmp = useAmp;
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/next-server/lib/dynamic.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/dynamic.js ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __importDefault = this && this.__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var loadable_1 = __importDefault(__webpack_require__(/*! ./loadable */ "./node_modules/next/dist/next-server/lib/loadable.js"));
-
-var isServerSide = false;
-
-function noSSR(LoadableInitializer, loadableOptions) {
-  // Removing webpack and modules means react-loadable won't try preloading
-  delete loadableOptions.webpack;
-  delete loadableOptions.modules; // This check is neccesary to prevent react-loadable from initializing on the server
-
-  if (!isServerSide) {
-    return LoadableInitializer(loadableOptions);
-  }
-
-  var Loading = loadableOptions.loading; // This will only be rendered on the server side
-
-  return function () {
-    return react_1["default"].createElement(Loading, {
-      error: null,
-      isLoading: true,
-      pastDelay: false,
-      timedOut: false
-    });
-  };
-}
-
-exports.noSSR = noSSR; // function dynamic<P = {}, O extends DynamicOptions>(options: O):
-
-function dynamic(dynamicOptions, options) {
-  var loadableFn = loadable_1["default"];
-  var loadableOptions = {
-    // A loading component is not required, so we default it
-    loading: function loading(_ref) {
-      var error = _ref.error,
-          isLoading = _ref.isLoading,
-          pastDelay = _ref.pastDelay;
-      if (!pastDelay) return null;
-
-      if (true) {
-        if (isLoading) {
-          return null;
-        }
-
-        if (error) {
-          return react_1["default"].createElement("p", null, error.message, react_1["default"].createElement("br", null), error.stack);
-        }
-      }
-
-      return null;
-    }
-  }; // Support for direct import(), eg: dynamic(import('../hello-world'))
-  // Note that this is only kept for the edge case where someone is passing in a promise as first argument
-  // The react-loadable babel plugin will turn dynamic(import('../hello-world')) into dynamic(() => import('../hello-world'))
-  // To make sure we don't execute the import without rendering first
-
-  if (dynamicOptions instanceof Promise) {
-    loadableOptions.loader = function () {
-      return dynamicOptions;
-    }; // Support for having import as a function, eg: dynamic(() => import('../hello-world'))
-
-  } else if (typeof dynamicOptions === 'function') {
-    loadableOptions.loader = dynamicOptions; // Support for having first argument being options, eg: dynamic({loader: import('../hello-world')})
-  } else if (typeof dynamicOptions === 'object') {
-    loadableOptions = Object.assign(Object.assign({}, loadableOptions), dynamicOptions);
-  } // Support for passing options, eg: dynamic(import('../hello-world'), {loading: () => <p>Loading something</p>})
-
-
-  loadableOptions = Object.assign(Object.assign({}, loadableOptions), options);
-
-  if (typeof dynamicOptions === 'object' && !(dynamicOptions instanceof Promise)) {
-    // show deprecation warning for `modules` key in development
-    if (true) {
-      if (dynamicOptions.modules) {
-        console.warn('The modules option for next/dynamic has been deprecated. See here for more info https://err.sh/zeit/next.js/next-dynamic-modules');
-      }
-    } // Support for `render` when using a mapping, eg: `dynamic({ modules: () => {return {HelloWorld: import('../hello-world')}, render(props, loaded) {} } })
-
-
-    if (dynamicOptions.render) {
-      loadableOptions.render = function (loaded, props) {
-        return dynamicOptions.render(props, loaded);
-      };
-    } // Support for `modules` when using a mapping, eg: `dynamic({ modules: () => {return {HelloWorld: import('../hello-world')}, render(props, loaded) {} } })
-
-
-    if (dynamicOptions.modules) {
-      loadableFn = loadable_1["default"].Map;
-      var loadModules = {};
-      var modules = dynamicOptions.modules();
-      Object.keys(modules).forEach(function (key) {
-        var value = modules[key];
-
-        if (typeof value.then === 'function') {
-          loadModules[key] = function () {
-            return value.then(function (mod) {
-              return mod["default"] || mod;
-            });
-          };
-
-          return;
-        }
-
-        loadModules[key] = value;
-      });
-      loadableOptions.loader = loadModules;
-    }
-  } // coming from build/babel/plugins/react-loadable-plugin.js
-
-
-  if (loadableOptions.loadableGenerated) {
-    loadableOptions = Object.assign(Object.assign({}, loadableOptions), loadableOptions.loadableGenerated);
-    delete loadableOptions.loadableGenerated;
-  } // support for disabling server side rendering, eg: dynamic(import('../hello-world'), {ssr: false})
-
-
-  if (typeof loadableOptions.ssr === 'boolean') {
-    if (!loadableOptions.ssr) {
-      delete loadableOptions.ssr;
-      return noSSR(loadableFn, loadableOptions);
-    }
-
-    delete loadableOptions.ssr;
-  }
-
-  return loadableFn(loadableOptions);
-}
-
-exports["default"] = dynamic;
-
-/***/ }),
-
 /***/ "./node_modules/next/dist/next-server/lib/head-manager-context.js":
 /*!************************************************************************!*\
   !*** ./node_modules/next/dist/next-server/lib/head-manager-context.js ***!
@@ -2567,425 +2075,6 @@ function Head(_ref) {
 
 Head.rewind = Effect.rewind;
 exports["default"] = Head;
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/lib/loadable-context.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/loadable-context.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __importStar = this && this.__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) {
-    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-  }
-  result["default"] = mod;
-  return result;
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-exports.LoadableContext = React.createContext(null);
-
-if (true) {
-  exports.LoadableContext.displayName = 'LoadableContext';
-}
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/next-server/lib/loadable.js":
-/*!************************************************************!*\
-  !*** ./node_modules/next/dist/next-server/lib/loadable.js ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-/**
-@copyright (c) 2017-present James Kyle <me@thejameskyle.com>
- MIT License
- Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
- The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
- THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
-*/
-// https://github.com/jamiebuilds/react-loadable/blob/v5.5.0/src/index.js
-// Modified to be compatible with webpack 4 / Next.js
-
-var _classCallCheck = __webpack_require__(/*! @babel/runtime/helpers/classCallCheck */ "./node_modules/@babel/runtime/helpers/classCallCheck.js");
-
-var _createClass = __webpack_require__(/*! @babel/runtime/helpers/createClass */ "./node_modules/@babel/runtime/helpers/createClass.js");
-
-function _createForOfIteratorHelper(o, allowArrayLike) { var it; if (typeof Symbol === "undefined" || o[Symbol.iterator] == null) { if (Array.isArray(o) || (it = _unsupportedIterableToArray(o)) || allowArrayLike && o && typeof o.length === "number") { if (it) o = it; var i = 0; var F = function F() {}; return { s: F, n: function n() { if (i >= o.length) return { done: true }; return { done: false, value: o[i++] }; }, e: function e(_e) { throw _e; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var normalCompletion = true, didErr = false, err; return { s: function s() { it = o[Symbol.iterator](); }, n: function n() { var step = it.next(); normalCompletion = step.done; return step; }, e: function e(_e2) { didErr = true; err = _e2; }, f: function f() { try { if (!normalCompletion && it["return"] != null) it["return"](); } finally { if (didErr) throw err; } } }; }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-var __importDefault = this && this.__importDefault || function (mod) {
-  return mod && mod.__esModule ? mod : {
-    "default": mod
-  };
-};
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
-
-var use_subscription_1 = __webpack_require__(/*! use-subscription */ "./node_modules/use-subscription/index.js");
-
-var loadable_context_1 = __webpack_require__(/*! ./loadable-context */ "./node_modules/next/dist/next-server/lib/loadable-context.js");
-
-var ALL_INITIALIZERS = [];
-var READY_INITIALIZERS = [];
-var initialized = false;
-
-function load(loader) {
-  var promise = loader();
-  var state = {
-    loading: true,
-    loaded: null,
-    error: null
-  };
-  state.promise = promise.then(function (loaded) {
-    state.loading = false;
-    state.loaded = loaded;
-    return loaded;
-  })["catch"](function (err) {
-    state.loading = false;
-    state.error = err;
-    throw err;
-  });
-  return state;
-}
-
-function loadMap(obj) {
-  var state = {
-    loading: false,
-    loaded: {},
-    error: null
-  };
-  var promises = [];
-
-  try {
-    Object.keys(obj).forEach(function (key) {
-      var result = load(obj[key]);
-
-      if (!result.loading) {
-        state.loaded[key] = result.loaded;
-        state.error = result.error;
-      } else {
-        state.loading = true;
-      }
-
-      promises.push(result.promise);
-      result.promise.then(function (res) {
-        state.loaded[key] = res;
-      })["catch"](function (err) {
-        state.error = err;
-      });
-    });
-  } catch (err) {
-    state.error = err;
-  }
-
-  state.promise = Promise.all(promises).then(function (res) {
-    state.loading = false;
-    return res;
-  })["catch"](function (err) {
-    state.loading = false;
-    throw err;
-  });
-  return state;
-}
-
-function resolve(obj) {
-  return obj && obj.__esModule ? obj["default"] : obj;
-}
-
-function render(loaded, props) {
-  return react_1["default"].createElement(resolve(loaded), props);
-}
-
-function createLoadableComponent(loadFn, options) {
-  var opts = Object.assign({
-    loader: null,
-    loading: null,
-    delay: 200,
-    timeout: null,
-    render: render,
-    webpack: null,
-    modules: null
-  }, options);
-  var subscription = null;
-
-  function init() {
-    if (!subscription) {
-      var sub = new LoadableSubscription(loadFn, opts);
-      subscription = {
-        getCurrentValue: sub.getCurrentValue.bind(sub),
-        subscribe: sub.subscribe.bind(sub),
-        retry: sub.retry.bind(sub),
-        promise: sub.promise.bind(sub)
-      };
-    }
-
-    return subscription.promise();
-  } // Server only
-
-
-  if (false) {} // Client only
-
-
-  if (!initialized && true && typeof opts.webpack === 'function') {
-    var moduleIds = opts.webpack();
-    READY_INITIALIZERS.push(function (ids) {
-      var _iterator = _createForOfIteratorHelper(moduleIds),
-          _step;
-
-      try {
-        for (_iterator.s(); !(_step = _iterator.n()).done;) {
-          var moduleId = _step.value;
-
-          if (ids.indexOf(moduleId) !== -1) {
-            return init();
-          }
-        }
-      } catch (err) {
-        _iterator.e(err);
-      } finally {
-        _iterator.f();
-      }
-    });
-  }
-
-  var LoadableComponent = function LoadableComponent(props, ref) {
-    init();
-    var context = react_1["default"].useContext(loadable_context_1.LoadableContext);
-    var state = use_subscription_1.useSubscription(subscription);
-    react_1["default"].useImperativeHandle(ref, function () {
-      return {
-        retry: subscription.retry
-      };
-    }, []);
-
-    if (context && Array.isArray(opts.modules)) {
-      opts.modules.forEach(function (moduleName) {
-        context(moduleName);
-      });
-    }
-
-    return react_1["default"].useMemo(function () {
-      if (state.loading || state.error) {
-        return react_1["default"].createElement(opts.loading, {
-          isLoading: state.loading,
-          pastDelay: state.pastDelay,
-          timedOut: state.timedOut,
-          error: state.error,
-          retry: subscription.retry
-        });
-      } else if (state.loaded) {
-        return opts.render(state.loaded, props);
-      } else {
-        return null;
-      }
-    }, [props, state]);
-  };
-
-  LoadableComponent.preload = function () {
-    return init();
-  };
-
-  LoadableComponent.displayName = 'LoadableComponent';
-  return react_1["default"].forwardRef(LoadableComponent);
-}
-
-var LoadableSubscription = /*#__PURE__*/function () {
-  function LoadableSubscription(loadFn, opts) {
-    _classCallCheck(this, LoadableSubscription);
-
-    this._loadFn = loadFn;
-    this._opts = opts;
-    this._callbacks = new Set();
-    this._delay = null;
-    this._timeout = null;
-    this.retry();
-  }
-
-  _createClass(LoadableSubscription, [{
-    key: "promise",
-    value: function promise() {
-      return this._res.promise;
-    }
-  }, {
-    key: "retry",
-    value: function retry() {
-      var _this = this;
-
-      this._clearTimeouts();
-
-      this._res = this._loadFn(this._opts.loader);
-      this._state = {
-        pastDelay: false,
-        timedOut: false
-      };
-      var res = this._res,
-          opts = this._opts;
-
-      if (res.loading) {
-        if (typeof opts.delay === 'number') {
-          if (opts.delay === 0) {
-            this._state.pastDelay = true;
-          } else {
-            this._delay = setTimeout(function () {
-              _this._update({
-                pastDelay: true
-              });
-            }, opts.delay);
-          }
-        }
-
-        if (typeof opts.timeout === 'number') {
-          this._timeout = setTimeout(function () {
-            _this._update({
-              timedOut: true
-            });
-          }, opts.timeout);
-        }
-      }
-
-      this._res.promise.then(function () {
-        _this._update({});
-
-        _this._clearTimeouts();
-      }) // eslint-disable-next-line handle-callback-err
-      ["catch"](function (err) {
-        _this._update({});
-
-        _this._clearTimeouts();
-      });
-
-      this._update({});
-    }
-  }, {
-    key: "_update",
-    value: function _update(partial) {
-      this._state = Object.assign(Object.assign(Object.assign({}, this._state), {
-        error: this._res.error,
-        loaded: this._res.loaded,
-        loading: this._res.loading
-      }), partial);
-
-      this._callbacks.forEach(function (callback) {
-        return callback();
-      });
-    }
-  }, {
-    key: "_clearTimeouts",
-    value: function _clearTimeouts() {
-      clearTimeout(this._delay);
-      clearTimeout(this._timeout);
-    }
-  }, {
-    key: "getCurrentValue",
-    value: function getCurrentValue() {
-      return this._state;
-    }
-  }, {
-    key: "subscribe",
-    value: function subscribe(callback) {
-      var _this2 = this;
-
-      this._callbacks.add(callback);
-
-      return function () {
-        _this2._callbacks["delete"](callback);
-      };
-    }
-  }]);
-
-  return LoadableSubscription;
-}();
-
-function Loadable(opts) {
-  return createLoadableComponent(load, opts);
-}
-
-function LoadableMap(opts) {
-  if (typeof opts.render !== 'function') {
-    throw new Error('LoadableMap requires a `render(loaded, props)` function');
-  }
-
-  return createLoadableComponent(loadMap, opts);
-}
-
-Loadable.Map = LoadableMap;
-
-function flushInitializers(initializers, ids) {
-  var promises = [];
-
-  while (initializers.length) {
-    var init = initializers.pop();
-    promises.push(init(ids));
-  }
-
-  return Promise.all(promises).then(function () {
-    if (initializers.length) {
-      return flushInitializers(initializers, ids);
-    }
-  });
-}
-
-Loadable.preloadAll = function () {
-  return new Promise(function (resolve, reject) {
-    flushInitializers(ALL_INITIALIZERS).then(resolve, reject);
-  });
-};
-
-Loadable.preloadReady = function () {
-  var ids = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
-  return new Promise(function (resolve) {
-    var res = function res() {
-      initialized = true;
-      return resolve();
-    }; // We always will resolve, errors should be handled within loading UIs.
-
-
-    flushInitializers(READY_INITIALIZERS, ids).then(res, res);
-  });
-};
-
-if (true) {
-  window.__NEXT_PRELOADREADY = Loadable.preloadReady;
-}
-
-exports["default"] = Loadable;
 
 /***/ }),
 
@@ -5245,17 +4334,6 @@ var objectKeys = Object.keys || function (obj) {
 exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring-es3/decode.js");
 exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring-es3/encode.js");
 
-
-/***/ }),
-
-/***/ "./node_modules/react-dom/index.js":
-/*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
-  \***********************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -8182,376 +7260,157 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ "./node_modules/use-subscription/cjs/use-subscription.development.js":
-/*!***************************************************************************!*\
-  !*** ./node_modules/use-subscription/cjs/use-subscription.development.js ***!
-  \***************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-/** @license React v1.1.1
- * use-subscription.development.js
- *
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
-
-
-
-
-if (true) {
-  (function() {
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-var react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
-/*
-object-assign
-(c) Sindre Sorhus
-@license MIT
-*/
-
-
-/* eslint-disable no-unused-vars */
-var getOwnPropertySymbols = Object.getOwnPropertySymbols;
-var hasOwnProperty = Object.prototype.hasOwnProperty;
-var propIsEnumerable = Object.prototype.propertyIsEnumerable;
-
-function toObject(val) {
-	if (val === null || val === undefined) {
-		throw new TypeError('Object.assign cannot be called with null or undefined');
-	}
-
-	return Object(val);
-}
-
-function shouldUseNative() {
-	try {
-		if (!Object.assign) {
-			return false;
-		}
-
-		// Detect buggy property enumeration order in older V8 versions.
-
-		// https://bugs.chromium.org/p/v8/issues/detail?id=4118
-		var test1 = new String('abc');  // eslint-disable-line no-new-wrappers
-		test1[5] = 'de';
-		if (Object.getOwnPropertyNames(test1)[0] === '5') {
-			return false;
-		}
-
-		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
-		var test2 = {};
-		for (var i = 0; i < 10; i++) {
-			test2['_' + String.fromCharCode(i)] = i;
-		}
-		var order2 = Object.getOwnPropertyNames(test2).map(function (n) {
-			return test2[n];
-		});
-		if (order2.join('') !== '0123456789') {
-			return false;
-		}
-
-		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
-		var test3 = {};
-		'abcdefghijklmnopqrst'.split('').forEach(function (letter) {
-			test3[letter] = letter;
-		});
-		if (Object.keys(Object.assign({}, test3)).join('') !==
-				'abcdefghijklmnopqrst') {
-			return false;
-		}
-
-		return true;
-	} catch (err) {
-		// We don't expect any of the above to throw, but better to be safe.
-		return false;
-	}
-}
-
-var objectAssign = shouldUseNative() ? Object.assign : function (target, source) {
-	var from;
-	var to = toObject(target);
-	var symbols;
-
-	for (var s = 1; s < arguments.length; s++) {
-		from = Object(arguments[s]);
-
-		for (var key in from) {
-			if (hasOwnProperty.call(from, key)) {
-				to[key] = from[key];
-			}
-		}
-
-		if (getOwnPropertySymbols) {
-			symbols = getOwnPropertySymbols(from);
-			for (var i = 0; i < symbols.length; i++) {
-				if (propIsEnumerable.call(from, symbols[i])) {
-					to[symbols[i]] = from[symbols[i]];
-				}
-			}
-		}
-	}
-
-	return to;
-};
-
-//
-// In order to avoid removing and re-adding subscriptions each time this hook is called,
-// the parameters passed to this hook should be memoized in some way–
-// either by wrapping the entire params object with useMemo()
-// or by wrapping the individual callbacks with useCallback().
-
-function useSubscription(_ref) {
-  var getCurrentValue = _ref.getCurrentValue,
-      subscribe = _ref.subscribe;
-
-  // Read the current value from our subscription.
-  // When this value changes, we'll schedule an update with React.
-  // It's important to also store the hook params so that we can check for staleness.
-  // (See the comment in checkForUpdates() below for more info.)
-  var _useState = react.useState(function () {
-    return {
-      getCurrentValue: getCurrentValue,
-      subscribe: subscribe,
-      value: getCurrentValue()
-    };
-  }),
-      state = _useState[0],
-      setState = _useState[1];
-
-  var valueToReturn = state.value; // If parameters have changed since our last render, schedule an update with its current value.
-
-  if (state.getCurrentValue !== getCurrentValue || state.subscribe !== subscribe) {
-    // If the subscription has been updated, we'll schedule another update with React.
-    // React will process this update immediately, so the old subscription value won't be committed.
-    // It is still nice to avoid returning a mismatched value though, so let's override the return value.
-    valueToReturn = getCurrentValue();
-    setState({
-      getCurrentValue: getCurrentValue,
-      subscribe: subscribe,
-      value: valueToReturn
-    });
-  } // Display the current value for this hook in React DevTools.
-
-
-  react.useDebugValue(valueToReturn); // It is important not to subscribe while rendering because this can lead to memory leaks.
-  // (Learn more at reactjs.org/docs/strict-mode.html#detecting-unexpected-side-effects)
-  // Instead, we wait until the commit phase to attach our handler.
-  //
-  // We intentionally use a passive effect (useEffect) rather than a synchronous one (useLayoutEffect)
-  // so that we don't stretch the commit phase.
-  // This also has an added benefit when multiple components are subscribed to the same source:
-  // It allows each of the event handlers to safely schedule work without potentially removing an another handler.
-  // (Learn more at https://codesandbox.io/s/k0yvr5970o)
-
-  react.useEffect(function () {
-    var didUnsubscribe = false;
-
-    var checkForUpdates = function () {
-      // It's possible that this callback will be invoked even after being unsubscribed,
-      // if it's removed as a result of a subscription event/update.
-      // In this case, React will log a DEV warning about an update from an unmounted component.
-      // We can avoid triggering that warning with this check.
-      if (didUnsubscribe) {
-        return;
-      } // We use a state updater function to avoid scheduling work for a stale source.
-      // However it's important to eagerly read the currently value,
-      // so that all scheduled work shares the same value (in the event of multiple subscriptions).
-      // This avoids visual "tearing" when a mutation happens during a (concurrent) render.
-
-
-      var value = getCurrentValue();
-      setState(function (prevState) {
-        // Ignore values from stale sources!
-        // Since we subscribe an unsubscribe in a passive effect,
-        // it's possible that this callback will be invoked for a stale (previous) subscription.
-        // This check avoids scheduling an update for that stale subscription.
-        if (prevState.getCurrentValue !== getCurrentValue || prevState.subscribe !== subscribe) {
-          return prevState;
-        } // Some subscriptions will auto-invoke the handler, even if the value hasn't changed.
-        // If the value hasn't changed, no update is needed.
-        // Return state as-is so React can bail out and avoid an unnecessary render.
-
-
-        if (prevState.value === value) {
-          return prevState;
-        }
-
-        return objectAssign({}, prevState, {
-          value: value
-        });
-      });
-    };
-
-    var unsubscribe = subscribe(checkForUpdates); // Because we're subscribing in a passive effect,
-    // it's possible that an update has occurred between render and our effect handler.
-    // Check for this and schedule an update if work has occurred.
-
-    checkForUpdates();
-    return function () {
-      didUnsubscribe = true;
-      unsubscribe();
-    };
-  }, [getCurrentValue, subscribe]); // Return the current value for our caller to use while rendering.
-
-  return valueToReturn;
-}
-
-exports.useSubscription = useSubscription;
-  })();
-}
-
-
-/***/ }),
-
-/***/ "./node_modules/use-subscription/index.js":
-/*!************************************************!*\
-  !*** ./node_modules/use-subscription/index.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/use-subscription.development.js */ "./node_modules/use-subscription/cjs/use-subscription.development.js");
-}
-
-
-/***/ }),
-
-/***/ "./pages/projects/index.js":
-/*!*********************************!*\
-  !*** ./pages/projects/index.js ***!
-  \*********************************/
-/*! exports provided: __N_SSG, default */
+/***/ "./pages/contact.js":
+/*!**************************!*\
+  !*** ./pages/contact.js ***!
+  \**************************/
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "__N_SSG", function() { return __N_SSG; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Project; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Contact; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout/index.js");
-/* harmony import */ var _components_ProjectDetail__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../components/ProjectDetail */ "./components/ProjectDetail/index.js");
-/* harmony import */ var _services_projects__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/projects */ "./services/projects.js");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../styles/utils.module.css */ "./styles/utils.module.css");
-/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/home/k3ndr1c/react-projects/nextjs-blog/pages/projects/index.js";
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout/index.js");
+/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/utils.module.css */ "./styles/utils.module.css");
+/* harmony import */ var _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/home/k3ndr1c/react-projects/nextjs-blog/pages/contact.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-
-var __N_SSG = true;
-function Project(_ref) {
-  var _this = this;
-
-  var allProjectsData = _ref.allProjectsData;
-  return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+function Contact(_ref) {
+  var allPostsData = _ref.allPostsData;
+  return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 5
+      lineNumber: 10,
+      columnNumber: 7
     }
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 7
+      lineNumber: 11,
+      columnNumber: 9
     }
   }, __jsx("title", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12,
+      columnNumber: 11
+    }
+  }, "contact")), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14,
       columnNumber: 9
     }
-  }, "projects")), __jsx("ul", {
-    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.list,
+  }, __jsx("ul", {
+    className: "".concat(_styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.contactList, " "),
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15,
+      columnNumber: 11
+    }
+  }, __jsx("li", {
+    className: _styles_utils_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.contactListItem,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 16,
-      columnNumber: 7
+      columnNumber: 13
     }
-  }, allProjectsData.map(function (_ref2) {
-    var name = _ref2.name,
-        description = _ref2.description,
-        srcUrl = _ref2.srcUrl,
-        siteUrl = _ref2.siteUrl,
-        images = _ref2.images;
-    return __jsx(_components_ProjectDetail__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      name: name,
-      description: description,
-      srcUrl: srcUrl,
-      siteUrl: siteUrl,
-      images: images,
-      __self: _this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 18,
-        columnNumber: 11
-      }
-    });
-  })));
-}
-
-/***/ }),
-
-/***/ "./projects/data.json":
-/*!****************************!*\
-  !*** ./projects/data.json ***!
-  \****************************/
-/*! exports provided: 0, default */
-/***/ (function(module) {
-
-module.exports = JSON.parse("[{\"name\":\"kanagana\",\"description\":\"An App created using React for repetition training tool on learning the Japanese alphabets Hiragana and Katakana. The app is optimized on mobile.\",\"images\":[\"/images/kanagana-1.png\",\"/images/kanagana-2.png\"],\"srcUrl\":\"https://github.com/k3ndr1c/kanagana\",\"siteUrl\":\"https://k3ndr1c.github.io/kanagana/\"}]");
-
-/***/ }),
-
-/***/ "./services/projects.js":
-/*!******************************!*\
-  !*** ./services/projects.js ***!
-  \******************************/
-/*! exports provided: getProjectsData */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getProjectsData", function() { return getProjectsData; });
-/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
-/* harmony import */ var _projects_data_json__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../projects/data.json */ "./projects/data.json");
-var _projects_data_json__WEBPACK_IMPORTED_MODULE_1___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../projects/data.json */ "./projects/data.json", 1);
-
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-
-function getProjectsData() {
-  var allProjectData = _projects_data_json__WEBPACK_IMPORTED_MODULE_1__.map(function (proj, index) {
-    return _objectSpread({
-      index: index
-    }, proj);
-  });
-  return allProjectData;
+  }, __jsx("b", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 15
+    }
+  }, "Resume:"), " ", __jsx("a", {
+    href: "https://drive.google.com/file/d/1-i3P-kSuL8yb3BbOjLrhgwBnEGEPeV3a/view?usp=sharing",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17,
+      columnNumber: 30
+    }
+  }, "Google Drive")), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 13
+    }
+  }, __jsx("b", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 15
+    }
+  }, "Email:"), " ", __jsx("a", {
+    href: "mailto:postrero.kendric@gmail.com",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 29
+    }
+  }, "postrero.kendric@gmail.com")), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 13
+    }
+  }, __jsx("b", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 15
+    }
+  }, "LinkedIn:"), " ", __jsx("a", {
+    href: "https://www.linkedin.com/in/kendric-postrero/",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 32
+    }
+  }, "Kendric Postrero")), __jsx("li", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 13
+    }
+  }, __jsx("b", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 15
+    }
+  }, "Github:"), " ", __jsx("a", {
+    href: "http://github.com/k3ndr1c",
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 30
+    }
+  }, "k3ndr1c"))))));
 }
 
 /***/ }),
@@ -8617,14 +7476,14 @@ if (true) {
 
 /***/ }),
 
-/***/ 1:
-/*!*******************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fprojects&absolutePagePath=%2Fhome%2Fk3ndr1c%2Freact-projects%2Fnextjs-blog%2Fpages%2Fprojects%2Findex.js ***!
-  \*******************************************************************************************************************************************************/
+/***/ 4:
+/*!*********************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2Fhome%2Fk3ndr1c%2Freact-projects%2Fnextjs-blog%2Fpages%2Fcontact.js ***!
+  \*********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fprojects&absolutePagePath=%2Fhome%2Fk3ndr1c%2Freact-projects%2Fnextjs-blog%2Fpages%2Fprojects%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fprojects&absolutePagePath=%2Fhome%2Fk3ndr1c%2Freact-projects%2Fnextjs-blog%2Fpages%2Fprojects%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fcontact&absolutePagePath=%2Fhome%2Fk3ndr1c%2Freact-projects%2Fnextjs-blog%2Fpages%2Fcontact.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fcontact&absolutePagePath=%2Fhome%2Fk3ndr1c%2Freact-projects%2Fnextjs-blog%2Fpages%2Fcontact.js!./");
 
 
 /***/ }),
@@ -8640,5 +7499,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
-//# sourceMappingURL=projects.js.map
+},[[4,"static/runtime/webpack.js"]]]);
+//# sourceMappingURL=contact.js.map
